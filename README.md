@@ -16,9 +16,10 @@ service request will breach its service-level agreement (SLA), inside a human-in
 | Dashboard | Responsive KPI cards, searchable/sortable risk queue and request register, workflow-status badges, interpretation, role-based final decision log |
 | System Design | 5 functional + 3 non-functional requirements, actors, use case diagram, workflow |
 
-The demo **Service Officer** role can upload and apply datasets and record final decisions. The **Administrator**
-role is read-only for dataset changes and final decisions, but can view the active data and analysis. Role selection
-demonstrates permissions; it is not production authentication.
+The demo **Service Officer** role can upload and apply datasets, run individual or batch predictions, and record
+final decisions. The **Administrator** role can view the active data, dashboard, model metrics, and prediction
+results, but cannot change data, run predictions, or record decisions. Role selection demonstrates permissions;
+it is not production authentication.
 
 ## Repository layout
 ```
