@@ -4,6 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 from modules.data_processing import QUEUE_ORDER, WEEKDAYS, labeled
+from modules import ui
 
 GROUP_OPTIONS = ["Service_Type", "Assigned_Office", "Requester_Type", "Priority",
                  "Queue_Category", "Submission_Weekday", "Required_Documents_Complete"]
@@ -27,13 +28,18 @@ def breach_rate_table(df: pd.DataFrame, col: str) -> pd.DataFrame:
 
 
 def render(df: pd.DataFrame):
-    st.header("Exploratory Data Analysis")
+    ui.render_page_header(
+        "Operations intelligence",
+        "Request patterns & SLA performance",
+        "Explore service demand, queue pressure, and completed-request outcomes. Use the filters to focus "
+        "the analysis on a requester group or office.",
+    )
     if df is None or df.empty:
         st.warning("No data available. Load a valid dataset on the Dataset page first.")
         return
 
-    # interactive filters
-    with st.expander("Filters", expanded=False):
+    with st.container(border=True):
+        ui.render_section_heading("Focus the analysis", "Filters update the metrics, findings, and charts below.")
         req = st.multiselect("Requester type", sorted(df["Requester_Type"].dropna().unique()),
                              default=sorted(df["Requester_Type"].dropna().unique()))
         off = st.multiselect("Assigned office", sorted(df["Assigned_Office"].dropna().unique()),
@@ -43,9 +49,15 @@ def render(df: pd.DataFrame):
         st.warning("The current filters return no rows. Widen the filters.")
         return
     lab = labeled(view)
-    st.caption(f"{len(view):,} requests in view, {len(lab):,} completed with a known outcome.")
+    breaches = int(lab["SLA_Breached"].sum()) if not lab.empty else 0
+    breach_rate = float(lab["SLA_Breached"].mean() * 100) if not lab.empty else 0.0
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Requests in view", f"{len(view):,}")
+    k2.metric("Completed with outcome", f"{len(lab):,}")
+    k3.metric("SLA breaches", f"{breaches:,}")
+    k4.metric("Breach rate", f"{breach_rate:.1f}%" if not lab.empty else "n/a")
 
-    st.subheader("1. Descriptive statistics")
+    ui.render_section_heading("Dataset profile", "Summary statistics for the currently filtered requests.")
     num_cols = [c for c in ["Queue_Length", "SLA_Days", "Processing_Days", "Satisfaction_Score"] if c in view.columns]
     c1, c2 = st.columns(2)
     c1.markdown("**Numeric fields**")
@@ -54,7 +66,7 @@ def render(df: pd.DataFrame):
     cat_cols = ["Service_Type", "Requester_Type", "Assigned_Office", "Priority", "Status"]
     c2.dataframe(view[cat_cols].describe().T, use_container_width=True)
 
-    st.subheader("2. Class distribution (target: SLA_Breached)")
+    ui.render_section_heading("Outcome balance", "Breach rates use completed requests with known processing times only.")
     if lab.empty:
         st.info("No completed requests with known outcomes in this view, so the target cannot be shown.")
     else:
@@ -66,7 +78,7 @@ def render(df: pd.DataFrame):
         fig = px.pie(dist, names="Class", values="Count", hole=0.45, title="SLA breach class balance")
         b.plotly_chart(fig, use_container_width=True)
 
-    st.subheader("3. Interactive charts")
+    ui.render_section_heading("Explore the patterns", "Choose a chart to compare request volume and SLA outcomes.")
     tab1, tab2, tab3, tab4, tab5 = st.tabs(
         ["Request volume", "Breach rate", "Processing vs SLA", "Queue vs breach", "Weekday x office"])
 
@@ -123,7 +135,7 @@ def render(df: pd.DataFrame):
                             labels=dict(color="Breach %"), title="Breach rate (%) by office and submission weekday")
             st.plotly_chart(fig, use_container_width=True)
 
-    st.subheader("4. Findings")
+    ui.render_section_heading("What stands out", "A descriptive summary of the currently filtered data.")
     office = breach_rate_table(view, "Assigned_Office")
     vol = view.groupby("Service_Type").size().sort_values(ascending=False)
     if not office.empty:

@@ -7,6 +7,7 @@ import plotly.express as px
 import streamlit as st
 
 from modules import prediction as pred
+from modules import ui
 from modules.data_processing import labeled
 from modules.exploratory_analysis import breach_rate_table
 
@@ -20,7 +21,11 @@ DECISIONS = [
 
 
 def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
-    st.header("Decision-Support Dashboard")
+    ui.render_page_header(
+        "Live operations",
+        "Service request overview",
+        "Review workload, completed-request SLA performance, and outstanding requests that may need staff attention.",
+    )
     if df is None or df.empty:
         st.warning("No data available. Load a valid dataset on the Dataset page first.")
         return
@@ -35,7 +40,7 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
     completed_requests = int(((df["Status"] == "Completed") & (df["SLA_Breached"] == 0)).sum())
     breach_rate = (lab["SLA_Breached"].mean() * 100) if not lab.empty else 0.0
 
-    st.markdown('<div class="section-title">Operations Snapshot</div>', unsafe_allow_html=True)
+    ui.render_section_heading("Operations snapshot", "A quick view of current workload and completed outcomes.")
     k1, k2, k3 = st.columns(3)
     k4, k5 = st.columns(2)
     for col, label, value, meta_text in [
@@ -59,7 +64,7 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
     st.caption(f"Model v{meta.get('model_version', '?')} (trained {meta.get('trained_at', '?')}). "
                "Flags are advisory and require human review.")
 
-    st.markdown('<div class="section-title">Priority Monitoring</div>', unsafe_allow_html=True)
+    ui.render_section_heading("Priority monitoring", "Risk flags are advisory and must be reviewed by staff.")
     if len(flagged) > 0:
         st.markdown(
             f"<div class=\"alert-box\">{len(flagged)} outstanding requests are flagged for staff review. Predictions are advisory and must not be used to deny service.</div>",
@@ -88,7 +93,7 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
         c2.info("No pending or in-progress requests in this dataset.")
 
     # --- review queue
-    st.subheader("Risk / review queue")
+    ui.render_section_heading("Risk review queue", "Filter and sort outstanding requests to support staff review.")
     st.caption("Open requests are Pending; records marked Processing are in progress. Select a row for staff review.")
     if scored.empty:
         st.info("There are no open requests to score.")
@@ -147,7 +152,8 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
             )
         st.caption(f"{len(queue)} request(s) match the current filters. Table columns can be sorted by clicking their headers.")
 
-    with st.expander("Search and filter the full request register"):
+    with st.expander("Full request register", expanded=False):
+        st.caption("Search and filter all active requests, including completed and cancelled records.")
         register = df.copy()
         register["Workflow_Status"] = "⚪ Cancelled"
         register.loc[register["Status"] == "Open", "Workflow_Status"] = "🔵 Pending"
@@ -173,7 +179,7 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
         st.caption(f"{len(register_view):,} request(s) shown. Sort any column by selecting its header.")
 
     # --- interpretation
-    st.subheader("Interpretation")
+    ui.render_section_heading("Operational interpretation", "Use model flags with context; they are not final decisions.")
     bullets = []
     if not off.empty:
         top = off.iloc[0]
@@ -190,7 +196,7 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
                 "from high-queue offices, and fast-track high-risk requests approaching their SLA date.")
 
     # --- human decision recording
-    st.subheader("Human review and final decision")
+    ui.render_section_heading("Human review & decision log", "Only Service Officers can record a decision in this demo.")
     if "decision_log" not in st.session_state:
         st.session_state["decision_log"] = []
     if role == "Service Officer" and not queue.empty:
@@ -225,11 +231,17 @@ def render_dashboard(df: pd.DataFrame, model, meta: dict, role: str):
 
 
 def render_system_design(meta: dict):
-    st.header("System Design (SAD Integration)")
-    st.markdown("This page documents the analysis artifacts that correspond to the implemented features. "
-                "Findings cited as *midterm* come from the submitted Laboratory Examination Report.")
+    ui.render_page_header(
+        "Requirements & workflow",
+        "System design",
+        "How the student-services workflow, model, and role responsibilities fit together.",
+    )
+    a, b, c = st.columns(3)
+    a.metric("Functional requirements", "5")
+    b.metric("Non-functional requirements", "3")
+    c.metric("Demo roles", "2")
 
-    st.subheader("Functional requirements (evidence-based)")
+    ui.render_section_heading("Functional requirements", "What users need the system to do.")
     fr = pd.DataFrame([
         ["FR-1", "Display SLA breach performance grouped by assigned office.",
          "Midterm: Scholarship Office 78.9% (30/38), Finance 75.6%.", "Data Analysis, Dashboard"],
@@ -246,7 +258,7 @@ def render_system_design(meta: dict):
     ], columns=["ID", "Requirement", "Evidence", "Implemented in"])
     st.dataframe(fr, use_container_width=True, hide_index=True)
 
-    st.subheader("Non-functional requirements")
+    ui.render_section_heading("Quality requirements", "How the system should behave and protect users.")
     nfr = pd.DataFrame([
         ["NFR-1 Data validation", "Uploads are checked for schema, empty files, types and dates with clear error "
                                   "messages before use.", "Dataset"],
@@ -257,7 +269,7 @@ def render_system_design(meta: dict):
     ], columns=["Requirement", "Description", "Where"])
     st.dataframe(nfr, use_container_width=True, hide_index=True)
 
-    st.subheader("Actors and permissions")
+    ui.render_section_heading("Roles & permissions", "Service Officers perform operational actions; Administrators inspect results.")
     perms = pd.DataFrame([
         ["Administrator", "No (read-only)", "Yes", "No (view saved results)", "Yes (read-only)", "No"],
         ["Service Officer", "Yes", "Yes", "Yes", "Yes", "Yes"],
@@ -269,14 +281,14 @@ def render_system_design(meta: dict):
                "or change it, run new predictions, or record decisions. Role switching in the sidebar is a demo of authorization rules; "
                "production use needs real authentication.")
 
-    st.subheader("Updated use case diagram")
+    ui.render_section_heading("Use-case diagram", "The key interactions between system roles and the workflow.")
     img = ASSETS / "use_case_diagram.png"
     if img.exists():
         st.image(str(img), use_container_width=True)
     else:
         st.error("assets/use_case_diagram.png is missing. Run scripts/make_use_case_diagram.py.")
 
-    st.subheader("Analytical process flow / decision workflow")
+    ui.render_section_heading("Decision workflow", "Risk estimates route requests for human review, never automated denial.")
     st.graphviz_chart("""
     digraph G {
       rankdir=LR; node [shape=box, style="rounded,filled", fillcolor="#eaf1fb", fontname="Helvetica"];

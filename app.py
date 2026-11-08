@@ -7,6 +7,7 @@ from modules import dashboard as dash
 from modules import data_processing as dp
 from modules import exploratory_analysis as eda
 from modules import prediction as pred
+from modules import ui
 
 st.set_page_config(page_title="SLA Breach Decision Support", page_icon="📊", layout="wide")
 
@@ -177,6 +178,71 @@ st.markdown(
         margin-top: 1rem;
         font-weight: 600;
     }
+    .page-hero {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(120deg, #142b4a 0%, #244d78 62%, #2f67a5 100%);
+        border-radius: 17px;
+        padding: 1.35rem 1.55rem;
+        margin: 0.15rem 0 1.3rem;
+        box-shadow: 0 10px 24px rgba(20, 43, 74, 0.1);
+    }
+    .page-hero:after {
+        content: "";
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        right: -75px;
+        top: -105px;
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 50%;
+        box-shadow: 0 0 0 28px rgba(255,255,255,0.035), 0 0 0 58px rgba(255,255,255,0.025);
+        pointer-events: none;
+    }
+    .page-eyebrow {
+        color: #b9d8f7;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 0.72rem;
+        font-weight: 800;
+        margin-bottom: 0.45rem;
+    }
+    .page-hero h1 {
+        color: #fff !important;
+        font-size: 1.85rem;
+        margin: 0 0 0.35rem;
+        letter-spacing: -0.035em;
+    }
+    .page-hero p {
+        color: rgba(255,255,255,0.88) !important;
+        max-width: 860px;
+        margin: 0;
+        font-size: 0.96rem;
+        line-height: 1.55;
+    }
+    .page-section-heading {
+        border-left: 3px solid var(--blue);
+        padding-left: 0.75rem;
+        margin: 1.35rem 0 0.65rem;
+    }
+    .page-section-heading h2 {
+        color: var(--navy);
+        font-size: 1.15rem;
+        margin: 0;
+    }
+    .page-section-heading p {
+        color: var(--muted);
+        margin: 0.2rem 0 0;
+        font-size: 0.9rem;
+    }
+    [data-testid="stTabs"] button {
+        font-weight: 650;
+    }
+    [data-testid="stExpander"] {
+        background: rgba(255,255,255,0.72);
+        border-color: var(--line);
+        border-radius: 12px;
+    }
     [data-testid="stDataFrame"], [data-testid="stTable"] { border: 1px solid var(--line); border-radius: 10px; }
     .stButton > button, [data-testid="stDownloadButton"] button {
         border-radius: 8px;
@@ -192,6 +258,8 @@ st.markdown(
         .metric-card { min-height: 96px; padding: 0.8rem; }
         .metric-value { font-size: 1.55rem; }
         h1 { font-size: 1.8rem; }
+        .page-hero { padding: 1.1rem; }
+        .page-hero h1 { font-size: 1.55rem; }
     }
     </style>
     """,
@@ -337,18 +405,25 @@ def show_quality(raw: pd.DataFrame):
 
 
 def page_dataset():
-    st.header("Dataset Upload and Validation")
-    st.markdown("Required columns: `" + "`, `".join(dp.REQUIRED_COLUMNS) + "`.")
+    ui.render_page_header(
+        "Data workspace",
+        "Dataset validation",
+        "Review the active request data, check its quality, or load a CSV for this session. "
+        "Uploads are available to Service Officers.",
+    )
     st.download_button("Download bundled sample CSV", dp.SAMPLE_PATH.read_bytes(),
                        "student_service_requests_sample.csv", "text/csv")
 
     if role == "Administrator":
-        st.info("Read-only administrator view: dataset uploads and changing the active dataset are limited to Service Officers.")
+        st.info("Administrator view · Read-only. Service Officers manage uploads and choose the active dataset.")
         show_quality(active_df)
         st.dataframe(active_df.head(20), use_container_width=True)
         return
 
-    uploaded = st.file_uploader("Upload CSV", type="csv")
+    with st.container(border=True):
+        ui.render_section_heading("Load a dataset", "CSV files are checked before they can become active.")
+        st.caption("Required columns: " + ", ".join(f"`{column}`" for column in dp.REQUIRED_COLUMNS))
+        uploaded = st.file_uploader("Choose a CSV file", type="csv")
     if uploaded is None:
         st.info("No file uploaded. Showing the bundled request sample.")
         raw = pd.read_csv(dp.SAMPLE_PATH)
@@ -366,9 +441,9 @@ def page_dataset():
         return
 
     errors, warnings = dp.validate_dataframe(raw)
-    st.subheader("Preview")
+    ui.render_section_heading("Upload preview", "Inspect the first rows before making this dataset active.")
     st.dataframe(raw.head(20), use_container_width=True)
-    st.subheader("Data quality")
+    ui.render_section_heading("Data quality")
     if not raw.empty:
         show_quality(raw)
     for w in warnings:
@@ -387,12 +462,18 @@ def page_dataset():
 
 
 def page_prediction():
-    st.header("Predictive Modeling")
+    ui.render_page_header(
+        "Decision support",
+        "SLA breach prediction",
+        "Estimate potential SLA breach risk from submission-time information. Predictions are advisory "
+        "and require staff judgment.",
+    )
     model, meta = model_or_stop()
     tab1, tab2, tab3 = st.tabs(["Predict one request", "Model metrics", "Score current dataset"])
 
     with tab1:
         if role == "Service Officer":
+            ui.render_section_heading("Assess a request", "Use information available when the request is submitted.")
             st.markdown("Enter **submission-time** information only. Outcome fields (Processing_Days, "
                         "Satisfaction_Score, Status) are not accepted, so nothing leaks into inference.")
             cats = meta["categories"]
@@ -418,7 +499,7 @@ def page_prediction():
                 else:
                     row = pred.build_input_row(inputs)
                     res = pred.predict_single(model, row, meta)
-                    st.markdown("#### Result")
+                    ui.render_section_heading("Prediction result", "Treat the estimate as a prompt for human review.")
                     m1, m2, m3 = st.columns(3)
                     m1.metric("Prediction", res["label_text"])
                     m2.metric("Breach probability",
@@ -454,6 +535,7 @@ def page_prediction():
                 st.markdown(f"- {item}")
 
     with tab2:
+        ui.render_section_heading("Model performance", "Test-set metrics describe this model run, not a guarantee for individual requests.")
         m = meta["metrics"]
         mid = pred.MIDTERM_REPORTED
         table = pd.DataFrame({
@@ -481,7 +563,7 @@ def page_prediction():
 
     with tab3:
         if role == "Service Officer":
-            st.markdown("Score every request in the active dataset (any status) with the saved pipeline.")
+            ui.render_section_heading("Batch scoring", f"Score requests from the active dataset: {active_name}.")
             if st.button("Score dataset"):
                 st.session_state["scored_dataset"] = pred.score_dataframe(model, active_df)
                 st.session_state["scored_dataset_name"] = active_name

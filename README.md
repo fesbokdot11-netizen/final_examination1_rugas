@@ -10,11 +10,11 @@ service request will breach its service-level agreement (SLA), inside a human-in
 | Page | What it does |
 |---|---|
 | Home | Purpose, usage steps, model summary |
-| Dataset | CSV upload, schema checks, preview, null/duplicate summary |
-| Data Analysis | Descriptive stats, class distribution, 5 interactive Plotly charts |
-| Prediction | One-row inference, probability, drivers, limitations, metrics vs midterm, batch scoring |
-| Dashboard | Responsive KPI cards, searchable/sortable risk queue and request register, workflow-status badges, interpretation, role-based final decision log |
-| System Design | 5 functional + 3 non-functional requirements, actors, use case diagram, workflow |
+| Dataset | Role-aware CSV upload, schema checks, preview, null/duplicate summary |
+| Data Analysis | Filtered KPI summary, descriptive stats, class distribution, 5 interactive Plotly charts |
+| Prediction | Role-aware one-row inference and batch scoring, probability, drivers, limitations, model metrics |
+| Dashboard | KPI cards, searchable/sortable risk queue and request register, workflow badges, interpretation, role-based decision log |
+| System Design | Requirements, role permissions, use-case diagram, workflow |
 
 The demo **Service Officer** role can upload and apply datasets, run individual or batch predictions, and record
 final decisions. The **Administrator** role can view the active data, dashboard, model metrics, and prediction
@@ -25,7 +25,7 @@ it is not production authentication.
 ```
 app.py                      Streamlit entry point
 requirements.txt
-modules/                    data_processing.py, exploratory_analysis.py, prediction.py, dashboard.py
+modules/                    data_processing.py, exploratory_analysis.py, prediction.py, dashboard.py, ui.py
 models/trained_model.joblib + model_metadata.json (saved pipeline and metrics; never retrained on refresh)
 assets/use_case_diagram.png
 data/student_service_requests.csv   supplied 400-request sample dataset
