@@ -76,7 +76,7 @@ def validate_dataframe(df: pd.DataFrame):
     if dates.isna().any():
         errors.append(f"Column 'Submission_Date' has {int(dates.isna().sum())} missing or unparsable date(s).")
 
-    status = df["Status"].astype(str).str.strip().str.title()
+    status = df["Status"].astype(str).str.strip().str.title().replace({"Pending": "Open"})
     bad_status = sorted(set(status) - set(VALID_STATUS))
     if bad_status:
         errors.append("Unknown Status value(s): " + ", ".join(bad_status) +
@@ -111,7 +111,7 @@ def data_quality_summary(df: pd.DataFrame) -> dict:
 def prepare_dataframe(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean + engineer features. Assumes validate_dataframe() returned no errors."""
     df = raw.copy()
-    df["Status"] = df["Status"].astype(str).str.strip().str.title()
+    df["Status"] = df["Status"].astype(str).str.strip().str.title().replace({"Pending": "Open"})
     df["Required_Documents_Complete"] = normalize_yes_no(df["Required_Documents_Complete"])
     df["Submission_Date"] = pd.to_datetime(df["Submission_Date"], errors="coerce")
     numeric = NUMERIC_COLUMNS + (["Satisfaction_Score"] if "Satisfaction_Score" in df.columns else [])

@@ -43,7 +43,7 @@ LIMITATIONS = [
     "Small training set and a shallow Decision Tree, so probabilities are coarse, not calibrated.",
     "The midterm false-positive rate was about 46.8% on non-breach cases, so many flags will be false alarms.",
     "Only submission-time features are used; later events (staff absence, system downtime) are unseen.",
-    "Demo data is synthetic. Do not deploy publicly with real student records.",
+    "The supplied sample data may not represent live operations. Use authorized data and validate performance before operational use.",
 ]
 
 

@@ -223,7 +223,7 @@ def load_meta():
 def get_active_df():
     if "active_df" in st.session_state:
         return st.session_state["active_df"], st.session_state["active_name"]
-    return dp.load_sample(), "Bundled synthetic sample"
+    return dp.load_sample(), "Bundled request sample"
 
 
 def model_or_stop():
@@ -313,7 +313,7 @@ def page_home():
     st.markdown(
         """
         <div class="decision-note">
-            Predictions are decision-support outputs. They do not authorize rejecting or denying a service request, and the demo data is synthetic.
+            Predictions are advisory decision-support outputs, not grounds for denying a service request. The supplied sample data is for demonstration and may not represent live operations.
         </div>
         """,
         unsafe_allow_html=True,
@@ -341,11 +341,11 @@ def page_dataset():
     st.header("Dataset Upload and Validation")
     st.markdown("Required columns: `" + "`, `".join(dp.REQUIRED_COLUMNS) + "`.")
     uploaded = st.file_uploader("Upload CSV", type="csv")
-    st.download_button("Download sample template (synthetic CSV)", dp.SAMPLE_PATH.read_bytes(),
+    st.download_button("Download bundled sample CSV", dp.SAMPLE_PATH.read_bytes(),
                        "student_service_requests_sample.csv", "text/csv")
 
     if uploaded is None:
-        st.info("No file uploaded. Showing the bundled synthetic sample.")
+        st.info("No file uploaded. Showing the bundled request sample.")
         raw = pd.read_csv(dp.SAMPLE_PATH)
         show_quality(raw)
         st.dataframe(raw.head(20), use_container_width=True)
@@ -500,7 +500,7 @@ def page_presentation():
             "possible SLA breaches. An SLA, or service-level agreement, is the target time for completing "
             "a request. The system estimates whether a request may exceed that target. It is designed to "
             "help staff identify requests that may need attention—not to make decisions on their behalf. "
-            "The application currently uses synthetic sample data, not real student records.",
+            "The application currently uses the 400 request records supplied for this project.",
         ),
         (
             "2. Home · 45 seconds",
@@ -553,8 +553,8 @@ def page_presentation():
             "Return to: Home",
             "To summarize, this system combines data validation, analysis, SLA-risk prediction, and a "
             "staff-facing dashboard. Its purpose is to help staff see patterns and prioritize requests "
-            "for review. Predictions have limitations, and the current data is synthetic, so the system "
-            "should be evaluated with properly authorized real-world data before operational deployment. "
+            "for review. Predictions have limitations, and the supplied sample may not represent live operations. "
+            "Validate the system with properly authorized operational data before deployment. "
             "Thank you. I’m ready for your questions.",
         ),
     ]

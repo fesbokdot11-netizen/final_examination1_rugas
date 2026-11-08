@@ -1,7 +1,7 @@
 # Deployment Report - Section B
 
 **Student:** Kristheal Sofia Rugas  **GitHub repo:** https://github.com/fesbokdot11-netizen/final_examination1_rugas
-**Streamlit URL:** [not deployed yet]
+**Streamlit URL:** https://finalexamination1rugas-lrmsjqxywqmmwqcutdpxx.streamlit.app
 
 ## 1. Reused midterm code
 - Data loading / cleaning: `modules/data_processing.py`
@@ -14,28 +14,28 @@
 - The app wraps the model in a human-in-the-loop decision-support workflow instead of exposing raw model output alone.
 - The dashboard and system-design pages translate the technical model into an information-system workflow for staff review.
 - The saved model was regenerated with scikit-learn 1.9.1 for compatibility with the current project environment.
-- Important difference: the current bundled dataset is synthetic. Confirm the features, training split, and reported
-  metrics against the submitted midterm notebook before claiming exact model continuity.
+- The bundled dataset was replaced with the 400-row dataset supplied for this project. The model was retrained on
+  completed requests only; pending rows are normalized to the app's `Open` workflow status.
 
 ## 3. Tests performed
 | Test | Expected | Result |
 |---|---|---|
-| Sample CSV loads and preprocessing completes | 400 rows loaded and derived features present | Passed |
+| Supplied tab-separated sample loads and preprocessing completes | 400 rows loaded and derived features present | Passed |
 | Model loads and accepts a valid one-row input | Prediction returns a class and probabilities | Passed |
 | Streamlit Home and Dashboard render | No app exceptions in Streamlit smoke tests | Passed |
 | `Processing` is accepted as a workflow status | Validation returns no errors | Passed |
 | Invalid upload, missing columns, and empty CSV | Clear validation errors | Not yet verified end-to-end |
 | Same cases compared with the submitted midterm notebook | Matching predictions | Not yet verified; original notebook cases were unavailable |
 | Administrator decision recording is blocked | Read-only role behavior | Not yet verified end-to-end |
-| Public Streamlit deployment | URL opens successfully | Not deployed yet |
+| Public Streamlit deployment | URL opens successfully | Deployed; confirm after the latest rebuild |
 
 ## 4. Limitations
 - Predictions are advisory only and do not authorize denial of service.
 - The model is trained on completed requests only, because open/cancelled requests do not have an outcome label.
 - The Decision Tree is shallow and the probability estimates are coarse.
-- The demo dataset is synthetic and must not be used publicly with real student data.
+- The supplied sample may not represent live operations. Validate on authorized operational data before relying on model output.
 
 ## 5. Reflection
 The application structure converts the SLA prediction workflow into a decision-support experience with validation,
-analysis, and human review. Before submission, compare the bundled model against the original midterm notebook and
-replace the synthetic sample/model with the authorized midterm artifacts if they differ.
+analysis, and human review. Before operational use, compare the bundled model against the original midterm notebook
+and validate the supplied sample/model with properly authorized operational data.

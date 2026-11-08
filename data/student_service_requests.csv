@@ -1,401 +1,401 @@
-Request_ID,Submission_Date,Service_Type,Requester_Type,Student_Program,Channel,Assigned_Office,Priority,Queue_Length,SLA_Days,Required_Documents_Complete,Status,Processing_Days,Satisfaction_Score
-REQ-2026-0001,2026-01-29,Enrollment Assistance,Faculty,BSED,Walk-in,Student Affairs,Normal,15,4,Yes,Completed,2.0,5.0
-REQ-2026-0002,2026-08-01,Finance Clearance,Staff,BSIT,Online,Finance,Normal,7,5,Yes,Completed,6.0,3.0
-REQ-2026-0003,2026-06-30,Records,Student,BSED,Walk-in,Registrar,High,18,4,Yes,Completed,3.0,5.0
-REQ-2026-0004,2026-05-03,Enrollment Assistance,Student,BSBA,Online,Student Affairs,Normal,9,4,Yes,Open,,
-REQ-2026-0005,2026-05-01,Certification,Student,BSBA,Online,Registrar,Normal,7,2,Yes,Completed,1.0,4.0
-REQ-2026-0006,2026-08-24,Records,Student,BSED,Online,Registrar,Normal,13,5,Yes,Completed,3.0,5.0
-REQ-2026-0007,2026-01-28,Finance Clearance,Student,BSIT,Walk-in,Finance,Normal,14,6,Yes,Completed,11.0,2.0
-REQ-2026-0008,2026-07-12,Certification,Student,BSBA,Online,Registrar,Normal,7,4,Yes,Completed,1.0,4.0
-REQ-2026-0009,2026-02-28,Enrollment Assistance,Student,BSCS,Online,Student Affairs,Normal,13,4,Yes,Cancelled,,
-REQ-2026-0010,2026-01-30,Certification,Student,BSED,Walk-in,Registrar,Normal,9,3,Yes,Cancelled,,
-REQ-2026-0011,2026-05-27,Records,Student,BSBA,Online,Registrar,Normal,9,4,Yes,Completed,6.0,2.0
-REQ-2026-0012,2026-09-25,ID Replacement,Student,BSBA,Online,Student Affairs,High,7,7,Yes,Open,,
-REQ-2026-0013,2026-07-22,Records,Student,BSIT,Walk-in,Registrar,Normal,10,5,Yes,Completed,11.0,2.0
-REQ-2026-0014,2026-07-29,Records,Faculty,BSED,Online,Registrar,Normal,11,6,No,Completed,10.0,3.0
-REQ-2026-0015,2026-07-17,Certification,Faculty,BSIS,Online,Registrar,Normal,9,3,Yes,Completed,9.0,2.0
-REQ-2026-0016,2026-08-05,Records,Faculty,BSIS,Walk-in,Registrar,Normal,7,6,Yes,Open,,
-REQ-2026-0017,2026-05-23,Finance Clearance,Student,BSIT,Walk-in,Finance,Normal,13,5,Yes,Completed,11.0,3.0
-REQ-2026-0018,2026-02-08,ID Replacement,Student,BSBA,Online,Student Affairs,Normal,10,6,No,Completed,10.0,3.0
-REQ-2026-0019,2026-08-19,Enrollment Assistance,Staff,BSED,Online,Student Affairs,Normal,7,3,Yes,Completed,2.0,5.0
-REQ-2026-0020,2026-05-06,ID Replacement,Student,BSIT,Online,Student Affairs,Normal,8,7,Yes,Completed,1.0,4.0
-REQ-2026-0021,2026-05-20,Records,Student,BSBA,Online,Registrar,Normal,8,5,No,Cancelled,,
-REQ-2026-0022,2026-04-15,Records,Student,BSIT,Online,Registrar,Normal,7,5,Yes,Completed,3.0,3.0
-REQ-2026-0023,2026-02-23,ID Replacement,Student,BSED,Online,Student Affairs,High,16,8,No,Completed,10.0,4.0
-REQ-2026-0024,2026-09-12,Enrollment Assistance,Staff,BSBA,Walk-in,Student Affairs,Normal,9,4,Yes,Completed,7.0,2.0
-REQ-2026-0025,2026-08-04,Records,Student,BSIT,Walk-in,Registrar,Normal,6,5,Yes,Open,,
-REQ-2026-0026,2026-06-27,ID Replacement,Staff,BSED,Online,Student Affairs,High,13,6,Yes,Completed,9.0,3.0
-REQ-2026-0027,2026-04-23,Certification,Student,BSIS,Online,Registrar,Normal,15,3,Yes,Completed,3.0,3.0
-REQ-2026-0028,2026-08-15,Enrollment Assistance,Student,BSED,Online,Student Affairs,Normal,14,4,No,Open,,
-REQ-2026-0029,2026-06-01,Enrollment Assistance,Student,BSIS,Walk-in,Student Affairs,High,8,3,Yes,Open,,
-REQ-2026-0030,2026-05-04,Certification,Student,BSCS,Online,Registrar,Normal,13,3,No,Open,,
-REQ-2026-0031,2026-05-06,ID Replacement,Student,BSED,Online,Student Affairs,Normal,12,7,Yes,Completed,3.0,3.0
-REQ-2026-0032,2026-03-07,Scholarship Inquiry,Student,BSBA,Online,Scholarship Office,Normal,14,5,Yes,Completed,11.0,3.0
-REQ-2026-0033,2026-01-29,Enrollment Assistance,Staff,BSED,Online,Student Affairs,Normal,12,3,No,Completed,7.0,3.0
-REQ-2026-0034,2026-06-03,Records,Student,BSBA,Walk-in,Registrar,Normal,5,6,Yes,Completed,2.0,5.0
-REQ-2026-0035,2026-09-01,Enrollment Assistance,Staff,BSBA,Walk-in,Student Affairs,Normal,10,4,No,Completed,7.0,3.0
-REQ-2026-0036,2026-01-22,Certification,Faculty,BSCS,Online,Registrar,Normal,11,3,Yes,Completed,7.0,2.0
-REQ-2026-0037,2026-08-24,Certification,Student,BSIS,Walk-in,Registrar,Normal,7,2,Yes,Completed,3.0,4.0
-REQ-2026-0038,2026-08-16,ID Replacement,Faculty,BSIS,Walk-in,Student Affairs,Normal,12,8,Yes,Completed,12.0,1.0
-REQ-2026-0039,2026-03-20,Scholarship Inquiry,Student,BSCS,Online,Scholarship Office,Normal,7,4,Yes,Completed,8.0,3.0
-REQ-2026-0040,2026-06-24,Certification,Student,BSIS,Online,Registrar,Normal,8,4,Yes,Completed,4.0,5.0
-REQ-2026-0041,2026-02-18,ID Replacement,Faculty,BSIT,Online,Student Affairs,High,5,7,Yes,Completed,6.0,4.0
-REQ-2026-0042,2026-07-28,Records,Faculty,BSBA,Walk-in,Registrar,Normal,14,6,Yes,Completed,11.0,1.0
-REQ-2026-0043,2026-07-13,Records,Student,BSED,Online,Registrar,Normal,13,4,Yes,Open,,
-REQ-2026-0044,2026-04-10,Records,Student,BSIT,Online,Registrar,Normal,8,4,No,Completed,4.0,5.0
-REQ-2026-0045,2026-01-23,Records,Student,BSED,Online,Registrar,Normal,8,6,Yes,Cancelled,,
-REQ-2026-0046,2026-09-24,ID Replacement,Staff,BSED,Walk-in,Student Affairs,Normal,11,8,Yes,Completed,6.0,3.0
-REQ-2026-0047,2026-05-05,Certification,Student,BSED,Online,Registrar,Normal,12,3,No,Open,,
-REQ-2026-0048,2026-09-03,Scholarship Inquiry,Student,BSIT,Walk-in,Scholarship Office,Normal,10,4,Yes,Completed,6.0,2.0
-REQ-2026-0049,2026-07-07,Records,Student,BSCS,Online,Registrar,High,8,6,Yes,Completed,4.0,4.0
-REQ-2026-0050,2026-08-03,Scholarship Inquiry,Student,BSED,Walk-in,Scholarship Office,High,17,5,Yes,Completed,11.0,4.0
-REQ-2026-0051,2026-07-29,Records,Student,BSCS,Online,Registrar,Normal,12,6,Yes,Open,,
-REQ-2026-0052,2026-02-26,Finance Clearance,Staff,BSIT,Online,Finance,Normal,14,6,Yes,Completed,10.0,3.0
-REQ-2026-0053,2026-04-13,Finance Clearance,Student,BSIS,Walk-in,Finance,Normal,10,6,Yes,Completed,10.0,2.0
-REQ-2026-0054,2026-05-11,Records,Student,BSBA,Walk-in,Registrar,Normal,7,5,Yes,Completed,3.0,3.0
-REQ-2026-0055,2026-05-19,ID Replacement,Student,BSBA,Online,Student Affairs,Normal,12,7,Yes,Completed,2.0,5.0
-REQ-2026-0056,2026-01-16,Records,Faculty,BSIS,Online,Registrar,High,12,5,Yes,Completed,2.0,3.0
-REQ-2026-0057,2026-06-01,Enrollment Assistance,Faculty,BSCS,Walk-in,Student Affairs,Normal,10,3,Yes,Completed,3.0,4.0
-REQ-2026-0058,2026-02-15,Scholarship Inquiry,Student,BSIT,Walk-in,Scholarship Office,High,11,5,Yes,Completed,8.0,3.0
-REQ-2026-0059,2026-07-24,Records,Student,BSIT,Online,Registrar,Normal,8,5,Yes,Completed,2.0,3.0
-REQ-2026-0060,2026-07-08,Certification,Student,BSED,Online,Registrar,High,8,4,No,Completed,7.0,2.0
-REQ-2026-0061,2026-09-11,Certification,Student,BSCS,Walk-in,Registrar,Normal,7,3,Yes,Completed,3.0,4.0
-REQ-2026-0062,2026-07-25,Finance Clearance,Faculty,BSED,Walk-in,Finance,Normal,6,5,Yes,Cancelled,,
-REQ-2026-0063,2026-04-13,Enrollment Assistance,Student,BSIT,Walk-in,Student Affairs,Normal,6,3,Yes,Completed,4.0,4.0
-REQ-2026-0064,2026-09-23,Records,Student,BSED,Online,Registrar,High,11,5,Yes,Completed,2.0,5.0
-REQ-2026-0065,2026-04-25,Certification,Staff,BSCS,Online,Registrar,Normal,11,3,Yes,Completed,2.0,4.0
-REQ-2026-0066,2026-04-02,Records,Student,BSIS,Walk-in,Registrar,High,12,6,Yes,Completed,2.0,4.0
-REQ-2026-0067,2026-09-06,ID Replacement,Student,BSIS,Walk-in,Student Affairs,Normal,8,7,No,Completed,13.0,2.0
-REQ-2026-0068,2026-04-15,Enrollment Assistance,Student,BSCS,Walk-in,Student Affairs,High,7,3,Yes,Completed,3.0,4.0
-REQ-2026-0069,2026-01-25,ID Replacement,Student,BSED,Online,Student Affairs,Normal,8,7,No,Completed,4.0,4.0
-REQ-2026-0070,2026-05-11,Records,Student,BSIS,Online,Registrar,Normal,14,4,Yes,Completed,9.0,3.0
-REQ-2026-0071,2026-08-07,Finance Clearance,Student,BSCS,Walk-in,Finance,High,13,5,Yes,Completed,8.0,1.0
-REQ-2026-0072,2026-02-25,Certification,Student,BSIS,Online,Registrar,Normal,7,3,Yes,Completed,3.0,3.0
-REQ-2026-0073,2026-05-09,Records,Student,BSED,Walk-in,Registrar,Normal,15,6,Yes,Completed,6.0,5.0
-REQ-2026-0074,2026-02-09,Records,Student,BSBA,Online,Registrar,Normal,11,6,No,Completed,11.0,3.0
-REQ-2026-0075,2026-07-09,ID Replacement,Student,BSBA,Walk-in,Student Affairs,Normal,10,6,No,Cancelled,,
-REQ-2026-0076,2026-05-13,Enrollment Assistance,Student,BSBA,Walk-in,Student Affairs,Normal,11,3,No,Completed,7.0,5.0
-REQ-2026-0077,2026-04-04,Enrollment Assistance,Student,BSBA,Online,Student Affairs,Normal,6,4,Yes,Completed,3.0,4.0
-REQ-2026-0078,2026-03-07,ID Replacement,Student,BSBA,Online,Student Affairs,Normal,12,6,No,Completed,1.0,4.0
-REQ-2026-0079,2026-06-06,Scholarship Inquiry,Staff,BSIS,Online,Scholarship Office,High,4,6,Yes,Completed,5.0,4.0
-REQ-2026-0080,2026-07-04,Finance Clearance,Staff,BSED,Online,Finance,Normal,9,4,No,Completed,8.0,3.0
-REQ-2026-0081,2026-09-15,Records,Student,BSBA,Online,Registrar,Normal,7,4,Yes,Open,,
-REQ-2026-0082,2026-05-03,Records,Student,BSBA,Online,Registrar,Normal,12,6,Yes,Completed,3.0,5.0
-REQ-2026-0083,2026-02-17,Scholarship Inquiry,Student,BSCS,Walk-in,Scholarship Office,Normal,14,6,Yes,Open,,
-REQ-2026-0084,2026-08-17,Enrollment Assistance,Student,BSED,Online,Student Affairs,Normal,13,3,Yes,Completed,7.0,3.0
-REQ-2026-0085,2026-06-24,Finance Clearance,Student,BSCS,Online,Finance,High,10,5,Yes,Completed,8.0,3.0
-REQ-2026-0086,2026-07-13,Records,Student,BSIS,Online,Registrar,High,16,5,No,Completed,10.0,2.0
-REQ-2026-0087,2026-01-31,Enrollment Assistance,Student,BSED,Online,Student Affairs,Normal,10,4,No,Cancelled,,
-REQ-2026-0088,2026-03-30,Finance Clearance,Student,BSCS,Online,Finance,Normal,12,6,No,Completed,11.0,2.0
-REQ-2026-0089,2026-07-31,Certification,Student,BSIS,Online,Registrar,Normal,10,3,Yes,Completed,7.0,3.0
-REQ-2026-0090,2026-08-17,Certification,Student,BSBA,Walk-in,Registrar,Normal,15,2,Yes,Completed,4.0,1.0
-REQ-2026-0091,2026-05-02,Enrollment Assistance,Faculty,BSCS,Online,Student Affairs,Normal,9,4,Yes,Completed,5.0,1.0
-REQ-2026-0092,2026-08-10,Finance Clearance,Student,BSED,Walk-in,Finance,Normal,7,5,Yes,Open,,
-REQ-2026-0093,2026-08-20,Certification,Staff,BSIT,Online,Registrar,Normal,6,3,Yes,Completed,2.0,3.0
-REQ-2026-0094,2026-04-19,Enrollment Assistance,Student,BSIS,Online,Student Affairs,Normal,8,4,Yes,Completed,7.0,1.0
-REQ-2026-0095,2026-09-04,Scholarship Inquiry,Faculty,BSED,Walk-in,Scholarship Office,Normal,9,6,Yes,Cancelled,,
-REQ-2026-0096,2026-03-23,Finance Clearance,Staff,BSIT,Walk-in,Finance,Normal,10,6,Yes,Completed,8.0,4.0
-REQ-2026-0097,2026-03-10,ID Replacement,Staff,BSCS,Online,Student Affairs,Normal,7,7,Yes,Completed,2.0,5.0
-REQ-2026-0098,2026-07-08,ID Replacement,Faculty,BSBA,Online,Student Affairs,Normal,7,7,Yes,Completed,4.0,4.0
-REQ-2026-0099,2026-06-25,Enrollment Assistance,Faculty,BSIT,Online,Student Affairs,Normal,11,4,Yes,Completed,2.0,4.0
-REQ-2026-0100,2026-02-11,Records,Student,BSIS,Online,Registrar,Normal,16,5,No,Completed,8.0,4.0
-REQ-2026-0101,2026-08-17,Enrollment Assistance,Faculty,BSBA,Online,Student Affairs,Normal,10,4,Yes,Completed,3.0,5.0
-REQ-2026-0102,2026-02-27,Certification,Student,BSIT,Online,Registrar,Normal,8,2,No,Completed,6.0,3.0
-REQ-2026-0103,2026-08-10,Records,Student,BSBA,Online,Registrar,Normal,8,5,Yes,Completed,2.0,4.0
-REQ-2026-0104,2026-01-06,Records,Student,BSED,Online,Registrar,Normal,10,5,Yes,Completed,5.0,4.0
-REQ-2026-0105,2026-08-08,Certification,Staff,BSBA,Walk-in,Registrar,High,10,4,Yes,Completed,1.0,5.0
-REQ-2026-0106,2026-08-05,Records,Student,BSBA,Walk-in,Registrar,High,9,6,No,Completed,11.0,3.0
-REQ-2026-0107,2026-08-03,Records,Student,BSCS,Online,Registrar,Normal,8,5,Yes,Completed,2.0,4.0
-REQ-2026-0108,2026-07-03,Certification,Student,BSCS,Online,Registrar,Normal,6,2,Yes,Completed,2.0,5.0
-REQ-2026-0109,2026-05-12,ID Replacement,Student,BSIT,Online,Student Affairs,Normal,14,6,Yes,Completed,11.0,4.0
-REQ-2026-0110,2026-07-14,ID Replacement,Student,BSED,Online,Student Affairs,High,7,7,Yes,Completed,3.0,4.0
-REQ-2026-0111,2026-03-20,Certification,Student,BSIT,Walk-in,Registrar,Normal,10,3,Yes,Completed,2.0,5.0
-REQ-2026-0112,2026-08-03,ID Replacement,Student,BSCS,Walk-in,Student Affairs,High,8,8,Yes,Completed,7.0,4.0
-REQ-2026-0113,2026-06-04,Finance Clearance,Student,BSBA,Walk-in,Finance,Normal,11,6,Yes,Open,,
-REQ-2026-0114,2026-05-08,ID Replacement,Student,BSED,Walk-in,Student Affairs,Normal,4,6,Yes,Completed,6.0,5.0
-REQ-2026-0115,2026-05-21,Finance Clearance,Student,BSED,Walk-in,Finance,Normal,11,5,Yes,Completed,10.0,5.0
-REQ-2026-0116,2026-06-07,Records,Student,BSCS,Walk-in,Registrar,Normal,14,5,Yes,Open,,
-REQ-2026-0117,2026-01-15,Records,Student,BSBA,Online,Registrar,Normal,11,4,No,Completed,10.0,2.0
-REQ-2026-0118,2026-02-11,Finance Clearance,Student,BSIT,Online,Finance,Normal,9,5,No,Open,,
-REQ-2026-0119,2026-03-12,Finance Clearance,Student,BSIT,Online,Finance,Normal,15,4,Yes,Completed,5.0,3.0
-REQ-2026-0120,2026-02-04,Finance Clearance,Staff,BSCS,Online,Finance,High,6,5,Yes,Completed,8.0,4.0
-REQ-2026-0121,2026-05-03,Scholarship Inquiry,Staff,BSIS,Online,Scholarship Office,Normal,12,5,Yes,Completed,7.0,2.0
-REQ-2026-0122,2026-07-04,Certification,Student,BSCS,Walk-in,Registrar,Normal,10,3,Yes,Open,,
-REQ-2026-0123,2026-06-30,Records,Student,BSIT,Online,Registrar,Normal,10,5,Yes,Completed,1.0,5.0
-REQ-2026-0124,2026-05-12,ID Replacement,Student,BSED,Online,Student Affairs,Normal,7,7,Yes,Completed,6.0,5.0
-REQ-2026-0125,2026-08-23,Records,Faculty,BSED,Online,Registrar,Normal,8,6,No,Completed,8.0,2.0
-REQ-2026-0126,2026-06-06,Scholarship Inquiry,Student,BSIS,Online,Scholarship Office,High,11,4,Yes,Completed,8.0,4.0
-REQ-2026-0127,2026-01-26,ID Replacement,Faculty,BSBA,Online,Student Affairs,Normal,12,6,No,Completed,7.0,4.0
-REQ-2026-0128,2026-07-30,Finance Clearance,Student,BSIS,Walk-in,Finance,Normal,10,5,Yes,Open,,
-REQ-2026-0129,2026-06-09,Scholarship Inquiry,Student,BSBA,Online,Scholarship Office,Normal,7,5,Yes,Completed,5.0,4.0
-REQ-2026-0130,2026-06-25,Enrollment Assistance,Student,BSCS,Walk-in,Student Affairs,Normal,7,4,Yes,Completed,8.0,3.0
-REQ-2026-0131,2026-06-06,Finance Clearance,Faculty,BSIT,Online,Finance,Normal,9,4,Yes,Completed,9.0,3.0
-REQ-2026-0132,2026-06-03,Certification,Student,BSBA,Online,Registrar,Normal,17,3,No,Completed,6.0,3.0
-REQ-2026-0133,2026-01-29,Enrollment Assistance,Student,BSIT,Online,Student Affairs,Normal,10,5,Yes,Completed,6.0,3.0
-REQ-2026-0134,2026-06-04,Scholarship Inquiry,Staff,BSED,Walk-in,Scholarship Office,High,14,4,Yes,Completed,7.0,2.0
-REQ-2026-0135,2026-08-07,Certification,Student,BSIT,Walk-in,Registrar,High,11,3,Yes,Completed,2.0,3.0
-REQ-2026-0136,2026-03-28,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,High,11,6,No,Completed,8.0,2.0
-REQ-2026-0137,2026-06-16,Enrollment Assistance,Student,BSBA,Walk-in,Student Affairs,Normal,12,4,Yes,Completed,3.0,4.0
-REQ-2026-0138,2026-01-13,Enrollment Assistance,Faculty,BSCS,Online,Student Affairs,Normal,10,3,No,Completed,4.0,3.0
-REQ-2026-0139,2026-04-08,Enrollment Assistance,Student,BSBA,Walk-in,Student Affairs,High,12,3,No,Completed,8.0,3.0
-REQ-2026-0140,2026-05-02,Finance Clearance,Staff,BSIT,Online,Finance,Normal,6,6,Yes,Open,,
-REQ-2026-0141,2026-09-27,Records,Student,BSIT,Online,Registrar,Normal,12,6,Yes,Completed,1.0,4.0
-REQ-2026-0142,2026-03-03,Certification,Staff,BSIS,Walk-in,Registrar,High,14,3,Yes,Completed,1.0,5.0
-REQ-2026-0143,2026-03-20,Finance Clearance,Faculty,BSIS,Online,Finance,Normal,14,5,No,Completed,9.0,3.0
-REQ-2026-0144,2026-04-25,Certification,Student,BSIT,Online,Registrar,Normal,7,4,Yes,Completed,2.0,4.0
-REQ-2026-0145,2026-09-30,Scholarship Inquiry,Faculty,BSIS,Online,Scholarship Office,High,5,4,Yes,Completed,2.0,4.0
-REQ-2026-0146,2026-08-23,Finance Clearance,Faculty,BSED,Online,Finance,Normal,8,4,Yes,Cancelled,,
-REQ-2026-0147,2026-01-14,Records,Staff,BSED,Walk-in,Registrar,Normal,10,6,Yes,Completed,3.0,3.0
-REQ-2026-0148,2026-03-09,Certification,Student,BSBA,Walk-in,Registrar,Normal,8,2,Yes,Completed,8.0,4.0
-REQ-2026-0149,2026-08-14,Scholarship Inquiry,Student,BSBA,Walk-in,Scholarship Office,Normal,14,6,Yes,Completed,1.0,3.0
-REQ-2026-0150,2026-01-20,ID Replacement,Student,BSIT,Online,Student Affairs,Normal,14,7,Yes,Completed,2.0,5.0
-REQ-2026-0151,2026-08-24,Records,Student,BSIS,Online,Registrar,Normal,17,6,Yes,Completed,11.0,4.0
-REQ-2026-0152,2026-03-21,Finance Clearance,Student,BSCS,Online,Finance,High,10,4,Yes,Completed,7.0,3.0
-REQ-2026-0153,2026-09-09,Finance Clearance,Student,BSIT,Online,Finance,Normal,6,6,Yes,Completed,2.0,4.0
-REQ-2026-0154,2026-03-25,Certification,Student,BSED,Online,Registrar,Normal,3,2,No,Completed,7.0,4.0
-REQ-2026-0155,2026-05-02,Records,Student,BSCS,Walk-in,Registrar,High,6,4,Yes,Completed,2.0,4.0
-REQ-2026-0156,2026-07-02,Scholarship Inquiry,Student,BSIT,Walk-in,Scholarship Office,Normal,9,5,Yes,Completed,11.0,3.0
-REQ-2026-0157,2026-02-08,Certification,Faculty,BSCS,Walk-in,Registrar,Normal,8,3,No,Completed,1.0,4.0
-REQ-2026-0158,2026-06-04,Records,Faculty,BSIS,Online,Registrar,Normal,11,6,Yes,Open,,
-REQ-2026-0159,2026-05-21,Finance Clearance,Student,BSIS,Online,Finance,Normal,11,4,Yes,Completed,10.0,2.0
-REQ-2026-0160,2026-08-04,ID Replacement,Student,BSCS,Online,Student Affairs,Normal,10,6,Yes,Completed,2.0,4.0
-REQ-2026-0161,2026-09-30,ID Replacement,Staff,BSIS,Online,Student Affairs,Normal,13,7,No,Completed,9.0,4.0
-REQ-2026-0162,2026-07-03,Enrollment Assistance,Student,BSIS,Online,Student Affairs,Normal,10,5,Yes,Completed,3.0,4.0
-REQ-2026-0163,2026-04-25,Finance Clearance,Student,BSCS,Online,Finance,Normal,8,5,Yes,Cancelled,,
-REQ-2026-0164,2026-04-24,Scholarship Inquiry,Student,BSCS,Online,Scholarship Office,Normal,16,6,Yes,Completed,6.0,3.0
-REQ-2026-0165,2026-04-27,ID Replacement,Student,BSIT,Walk-in,Student Affairs,Normal,11,8,Yes,Completed,3.0,4.0
-REQ-2026-0166,2026-08-12,Certification,Student,BSIS,Online,Registrar,Normal,8,4,Yes,Completed,3.0,5.0
-REQ-2026-0167,2026-04-01,ID Replacement,Faculty,BSCS,Walk-in,Student Affairs,Normal,22,7,Yes,Completed,8.0,3.0
-REQ-2026-0168,2026-02-19,Scholarship Inquiry,Student,BSIT,Online,Scholarship Office,Normal,9,5,No,Completed,11.0,2.0
-REQ-2026-0169,2026-04-05,Certification,Student,BSED,Online,Registrar,Normal,6,3,No,Completed,8.0,3.0
-REQ-2026-0170,2026-01-11,Enrollment Assistance,Staff,BSBA,Online,Student Affairs,Normal,9,4,Yes,Completed,1.0,4.0
-REQ-2026-0171,2026-02-02,Certification,Faculty,BSED,Online,Registrar,Normal,8,3,Yes,Open,,
-REQ-2026-0172,2026-01-29,Records,Student,BSCS,Online,Registrar,High,6,5,No,Cancelled,,
-REQ-2026-0173,2026-08-01,Certification,Student,BSIT,Online,Registrar,Normal,17,3,Yes,Open,,
-REQ-2026-0174,2026-07-19,Certification,Student,BSIT,Walk-in,Registrar,High,10,3,Yes,Cancelled,,
-REQ-2026-0175,2026-07-12,Certification,Student,BSED,Online,Registrar,High,7,4,No,Completed,10.0,3.0
-REQ-2026-0176,2026-05-09,Finance Clearance,Student,BSED,Online,Finance,Normal,14,6,Yes,Completed,10.0,2.0
-REQ-2026-0177,2026-07-17,Certification,Staff,BSED,Online,Registrar,Normal,8,3,No,Completed,6.0,2.0
-REQ-2026-0178,2026-02-17,Enrollment Assistance,Student,BSBA,Online,Student Affairs,High,9,3,Yes,Cancelled,,
-REQ-2026-0179,2026-09-05,Records,Student,BSIT,Online,Registrar,Normal,21,5,Yes,Open,,
-REQ-2026-0180,2026-05-20,Records,Faculty,BSIT,Online,Registrar,Normal,8,5,No,Completed,1.0,4.0
-REQ-2026-0181,2026-09-15,Records,Student,BSED,Walk-in,Registrar,Normal,9,4,Yes,Completed,1.0,4.0
-REQ-2026-0182,2026-02-15,Certification,Staff,BSCS,Walk-in,Registrar,Normal,12,2,Yes,Completed,8.0,3.0
-REQ-2026-0183,2026-05-19,Certification,Faculty,BSCS,Walk-in,Registrar,Normal,12,3,Yes,Completed,1.0,4.0
-REQ-2026-0184,2026-07-12,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,High,9,6,Yes,Open,,
-REQ-2026-0185,2026-05-18,Records,Student,BSCS,Online,Registrar,High,12,5,Yes,Completed,2.0,3.0
-REQ-2026-0186,2026-05-05,Scholarship Inquiry,Staff,BSCS,Walk-in,Scholarship Office,Normal,9,5,Yes,Completed,7.0,4.0
-REQ-2026-0187,2026-02-18,Finance Clearance,Faculty,BSIT,Online,Finance,Normal,11,4,Yes,Completed,5.0,3.0
-REQ-2026-0188,2026-04-17,Enrollment Assistance,Staff,BSCS,Online,Student Affairs,Normal,15,4,Yes,Completed,3.0,4.0
-REQ-2026-0189,2026-03-10,Finance Clearance,Student,BSED,Online,Finance,High,6,4,Yes,Completed,10.0,3.0
-REQ-2026-0190,2026-03-27,Scholarship Inquiry,Staff,BSED,Walk-in,Scholarship Office,Normal,12,6,No,Completed,7.0,2.0
-REQ-2026-0191,2026-07-08,Certification,Student,BSCS,Online,Registrar,High,11,4,Yes,Open,,
-REQ-2026-0192,2026-06-24,Certification,Student,BSIT,Walk-in,Registrar,High,8,4,Yes,Completed,4.0,4.0
-REQ-2026-0193,2026-06-17,ID Replacement,Student,BSED,Walk-in,Student Affairs,Normal,10,7,Yes,Completed,4.0,4.0
-REQ-2026-0194,2026-04-12,Certification,Student,BSBA,Online,Registrar,Normal,6,2,Yes,Completed,3.0,4.0
-REQ-2026-0195,2026-09-21,Finance Clearance,Student,BSCS,Walk-in,Finance,High,8,5,Yes,Completed,3.0,4.0
-REQ-2026-0196,2026-01-28,ID Replacement,Student,BSIT,Online,Student Affairs,Normal,5,8,Yes,Completed,6.0,4.0
-REQ-2026-0197,2026-04-07,Finance Clearance,Faculty,BSBA,Online,Finance,Normal,8,4,Yes,Completed,2.0,4.0
-REQ-2026-0198,2026-02-05,ID Replacement,Student,BSBA,Online,Student Affairs,High,8,8,No,Completed,5.0,4.0
-REQ-2026-0199,2026-04-06,Finance Clearance,Student,BSIS,Walk-in,Finance,Normal,9,4,No,Completed,6.0,3.0
-REQ-2026-0200,2026-09-21,Finance Clearance,Student,BSCS,Online,Finance,Normal,8,4,Yes,Completed,8.0,4.0
-REQ-2026-0201,2026-04-13,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,Normal,5,4,No,Cancelled,,
-REQ-2026-0202,2026-09-07,Scholarship Inquiry,Staff,BSCS,Online,Scholarship Office,Normal,7,6,No,Open,,
-REQ-2026-0203,2026-05-18,Finance Clearance,Faculty,BSCS,Online,Finance,High,10,5,Yes,Open,,
-REQ-2026-0204,2026-07-12,Enrollment Assistance,Student,BSCS,Online,Student Affairs,Normal,8,4,Yes,Completed,1.0,4.0
-REQ-2026-0205,2026-05-08,Finance Clearance,Staff,BSIS,Online,Finance,Normal,15,5,Yes,Completed,6.0,3.0
-REQ-2026-0206,2026-03-17,Certification,Staff,BSIS,Online,Registrar,Normal,13,3,Yes,Completed,8.0,3.0
-REQ-2026-0207,2026-07-30,Records,Student,BSCS,Walk-in,Registrar,High,11,5,Yes,Completed,8.0,3.0
-REQ-2026-0208,2026-09-23,Records,Faculty,BSED,Online,Registrar,Normal,5,5,Yes,Completed,4.0,4.0
-REQ-2026-0209,2026-03-17,Finance Clearance,Student,BSIS,Walk-in,Finance,High,9,4,Yes,Open,,
-REQ-2026-0210,2026-08-03,Scholarship Inquiry,Staff,BSCS,Online,Scholarship Office,Normal,9,5,No,Completed,9.0,2.0
-REQ-2026-0211,2026-03-16,Enrollment Assistance,Student,BSIS,Walk-in,Student Affairs,High,9,4,No,Completed,9.0,2.0
-REQ-2026-0212,2026-07-17,Certification,Student,BSIT,Online,Registrar,High,14,2,Yes,Cancelled,,
-REQ-2026-0213,2026-08-06,Scholarship Inquiry,Student,BSCS,Online,Scholarship Office,High,15,5,Yes,Open,,
-REQ-2026-0214,2026-05-06,Finance Clearance,Staff,BSBA,Walk-in,Finance,High,8,4,Yes,Completed,8.0,3.0
-REQ-2026-0215,2026-07-22,Finance Clearance,Student,BSIT,Online,Finance,Normal,9,6,Yes,Open,,
-REQ-2026-0216,2026-03-19,Certification,Student,BSBA,Online,Registrar,Normal,10,2,No,Open,,
-REQ-2026-0217,2026-01-26,ID Replacement,Student,BSBA,Walk-in,Student Affairs,Normal,8,6,No,Cancelled,,
-REQ-2026-0218,2026-01-31,Finance Clearance,Faculty,BSIT,Walk-in,Finance,Normal,9,5,No,Completed,11.0,2.0
-REQ-2026-0219,2026-05-05,ID Replacement,Student,BSED,Online,Student Affairs,High,14,6,No,Completed,4.0,5.0
-REQ-2026-0220,2026-09-05,Finance Clearance,Staff,BSIT,Online,Finance,High,10,5,No,Completed,8.0,3.0
-REQ-2026-0221,2026-02-08,ID Replacement,Student,BSED,Walk-in,Student Affairs,Normal,13,7,Yes,Completed,3.0,5.0
-REQ-2026-0222,2026-05-08,Scholarship Inquiry,Student,BSED,Walk-in,Scholarship Office,Normal,8,4,Yes,Completed,7.0,1.0
-REQ-2026-0223,2026-07-14,Enrollment Assistance,Student,BSIT,Walk-in,Student Affairs,Normal,5,5,Yes,Completed,2.0,5.0
-REQ-2026-0224,2026-02-28,Certification,Student,BSBA,Online,Registrar,Normal,12,3,Yes,Completed,1.0,3.0
-REQ-2026-0225,2026-07-18,Certification,Student,BSCS,Walk-in,Registrar,Normal,11,2,Yes,Completed,5.0,4.0
-REQ-2026-0226,2026-03-28,Scholarship Inquiry,Faculty,BSED,Online,Scholarship Office,Normal,4,5,Yes,Completed,3.0,5.0
-REQ-2026-0227,2026-08-11,Scholarship Inquiry,Student,BSBA,Walk-in,Scholarship Office,Normal,7,5,No,Completed,11.0,3.0
-REQ-2026-0228,2026-06-10,ID Replacement,Faculty,BSED,Online,Student Affairs,Normal,15,7,Yes,Completed,7.0,3.0
-REQ-2026-0229,2026-06-01,Records,Student,BSCS,Walk-in,Registrar,Normal,8,5,No,Completed,8.0,3.0
-REQ-2026-0230,2026-02-21,Enrollment Assistance,Faculty,BSBA,Online,Student Affairs,Normal,12,5,No,Completed,9.0,2.0
-REQ-2026-0231,2026-05-10,Certification,Staff,BSIT,Online,Registrar,High,6,3,Yes,Completed,2.0,4.0
-REQ-2026-0232,2026-08-24,Enrollment Assistance,Faculty,BSIS,Walk-in,Student Affairs,Normal,14,4,Yes,Completed,7.0,3.0
-REQ-2026-0233,2026-01-10,Enrollment Assistance,Student,BSIS,Online,Student Affairs,Normal,15,4,Yes,Completed,7.0,1.0
-REQ-2026-0234,2026-07-28,Records,Faculty,BSIT,Walk-in,Registrar,Normal,17,6,Yes,Open,,
-REQ-2026-0235,2026-05-18,Certification,Student,BSCS,Online,Registrar,Normal,9,3,Yes,Completed,9.0,3.0
-REQ-2026-0236,2026-07-18,ID Replacement,Student,BSIS,Online,Student Affairs,High,9,6,No,Completed,5.0,4.0
-REQ-2026-0237,2026-07-03,Enrollment Assistance,Student,BSIT,Online,Student Affairs,Normal,15,4,Yes,Completed,6.0,2.0
-REQ-2026-0238,2026-05-01,ID Replacement,Student,BSBA,Online,Student Affairs,Normal,12,7,Yes,Completed,7.0,4.0
-REQ-2026-0239,2026-03-29,ID Replacement,Faculty,BSCS,Online,Student Affairs,High,8,6,Yes,Completed,3.0,3.0
-REQ-2026-0240,2026-06-23,ID Replacement,Student,BSED,Online,Student Affairs,High,6,8,Yes,Completed,4.0,2.0
-REQ-2026-0241,2026-02-11,ID Replacement,Staff,BSBA,Online,Student Affairs,Normal,9,8,Yes,Completed,9.0,3.0
-REQ-2026-0242,2026-06-11,Certification,Student,BSIT,Walk-in,Registrar,Normal,8,4,Yes,Completed,4.0,5.0
-REQ-2026-0243,2026-01-30,Records,Faculty,BSED,Walk-in,Registrar,Normal,9,4,Yes,Completed,6.0,3.0
-REQ-2026-0244,2026-06-29,Finance Clearance,Student,BSIT,Walk-in,Finance,Normal,9,5,Yes,Completed,9.0,2.0
-REQ-2026-0245,2026-06-23,Records,Student,BSIS,Online,Registrar,Normal,8,5,Yes,Completed,1.0,4.0
-REQ-2026-0246,2026-01-27,Records,Faculty,BSIS,Online,Registrar,Normal,9,5,Yes,Cancelled,,
-REQ-2026-0247,2026-07-28,ID Replacement,Staff,BSED,Online,Student Affairs,High,10,8,Yes,Completed,7.0,3.0
-REQ-2026-0248,2026-04-27,Certification,Student,BSED,Walk-in,Registrar,Normal,9,3,Yes,Completed,8.0,2.0
-REQ-2026-0249,2026-08-05,Enrollment Assistance,Student,BSBA,Walk-in,Student Affairs,Normal,4,4,Yes,Completed,3.0,5.0
-REQ-2026-0250,2026-01-16,Finance Clearance,Student,BSIS,Online,Finance,Normal,10,5,Yes,Open,,
-REQ-2026-0251,2026-02-22,Certification,Student,BSCS,Walk-in,Registrar,High,11,4,Yes,Completed,5.0,2.0
-REQ-2026-0252,2026-05-18,Enrollment Assistance,Staff,BSIS,Online,Student Affairs,Normal,13,5,Yes,Completed,11.0,4.0
-REQ-2026-0253,2026-02-24,Scholarship Inquiry,Faculty,BSIS,Online,Scholarship Office,High,11,5,Yes,Open,,
-REQ-2026-0254,2026-04-04,Finance Clearance,Student,BSCS,Online,Finance,High,14,6,Yes,Completed,10.0,3.0
-REQ-2026-0255,2026-07-02,Records,Student,BSIT,Online,Registrar,Normal,10,4,Yes,Open,,
-REQ-2026-0256,2026-02-13,ID Replacement,Student,BSIS,Walk-in,Student Affairs,Normal,14,7,No,Completed,11.0,2.0
-REQ-2026-0257,2026-07-06,Records,Staff,BSED,Walk-in,Registrar,Normal,9,5,Yes,Completed,1.0,2.0
-REQ-2026-0258,2026-02-01,Certification,Student,BSIT,Online,Registrar,Normal,8,2,No,Completed,6.0,4.0
-REQ-2026-0259,2026-02-21,Enrollment Assistance,Faculty,BSCS,Online,Student Affairs,High,7,4,Yes,Completed,9.0,3.0
-REQ-2026-0260,2026-06-12,Scholarship Inquiry,Student,BSIT,Walk-in,Scholarship Office,Normal,7,5,Yes,Completed,6.0,3.0
-REQ-2026-0261,2026-08-07,Scholarship Inquiry,Student,BSBA,Walk-in,Scholarship Office,Normal,11,5,Yes,Completed,1.0,4.0
-REQ-2026-0262,2026-02-20,Records,Student,BSCS,Online,Registrar,Normal,8,4,No,Completed,3.0,5.0
-REQ-2026-0263,2026-03-26,Records,Staff,BSIS,Online,Registrar,Normal,12,5,No,Completed,6.0,2.0
-REQ-2026-0264,2026-09-11,Records,Student,BSIS,Online,Registrar,Normal,10,4,Yes,Completed,6.0,2.0
-REQ-2026-0265,2026-09-29,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,Normal,9,5,No,Completed,8.0,2.0
-REQ-2026-0266,2026-06-10,Certification,Student,BSIS,Walk-in,Registrar,Normal,10,3,Yes,Completed,6.0,4.0
-REQ-2026-0267,2026-05-05,Finance Clearance,Student,BSBA,Online,Finance,Normal,9,5,Yes,Completed,7.0,4.0
-REQ-2026-0268,2026-04-08,Enrollment Assistance,Staff,BSCS,Walk-in,Student Affairs,Normal,8,4,Yes,Completed,4.0,2.0
-REQ-2026-0269,2026-06-19,Enrollment Assistance,Student,BSBA,Online,Student Affairs,Normal,9,5,No,Completed,8.0,2.0
-REQ-2026-0270,2026-06-13,Certification,Student,BSIS,Online,Registrar,Normal,7,2,Yes,Completed,5.0,3.0
-REQ-2026-0271,2026-03-25,Records,Student,BSED,Walk-in,Registrar,High,11,6,No,Completed,11.0,2.0
-REQ-2026-0272,2026-01-11,Enrollment Assistance,Student,BSBA,Online,Student Affairs,Normal,11,3,Yes,Completed,4.0,2.0
-REQ-2026-0273,2026-02-14,Finance Clearance,Student,BSIT,Online,Finance,Normal,13,4,Yes,Open,,
-REQ-2026-0274,2026-09-20,Finance Clearance,Student,BSCS,Walk-in,Finance,Normal,9,4,Yes,Completed,5.0,3.0
-REQ-2026-0275,2026-04-27,Scholarship Inquiry,Student,BSED,Walk-in,Scholarship Office,Normal,14,4,No,Completed,10.0,3.0
-REQ-2026-0276,2026-05-15,Records,Student,BSCS,Online,Registrar,Normal,11,6,Yes,Completed,4.0,4.0
-REQ-2026-0277,2026-05-11,Finance Clearance,Student,BSIT,Online,Finance,Normal,6,4,Yes,Completed,9.0,3.0
-REQ-2026-0278,2026-08-04,Enrollment Assistance,Student,BSCS,Online,Student Affairs,High,12,4,Yes,Completed,6.0,2.0
-REQ-2026-0279,2026-01-22,Enrollment Assistance,Student,BSCS,Online,Student Affairs,Normal,12,4,Yes,Completed,6.0,3.0
-REQ-2026-0280,2026-01-27,Finance Clearance,Student,BSIT,Online,Finance,Normal,5,4,Yes,Completed,2.0,5.0
-REQ-2026-0281,2026-03-20,Records,Student,BSIS,Online,Registrar,Normal,7,5,Yes,Open,,
-REQ-2026-0282,2026-05-16,Enrollment Assistance,Student,BSIS,Walk-in,Student Affairs,Normal,9,3,Yes,Completed,2.0,5.0
-REQ-2026-0283,2026-07-05,ID Replacement,Student,BSCS,Walk-in,Student Affairs,Normal,10,7,Yes,Completed,3.0,4.0
-REQ-2026-0284,2026-05-17,Certification,Student,BSIS,Walk-in,Registrar,Normal,14,3,Yes,Completed,9.0,4.0
-REQ-2026-0285,2026-05-04,Enrollment Assistance,Student,BSIT,Walk-in,Student Affairs,Normal,10,4,No,Completed,6.0,2.0
-REQ-2026-0286,2026-09-15,ID Replacement,Student,BSED,Walk-in,Student Affairs,Normal,12,7,Yes,Completed,1.0,3.0
-REQ-2026-0287,2026-02-17,Enrollment Assistance,Student,BSIS,Walk-in,Student Affairs,High,8,5,No,Completed,1.0,3.0
-REQ-2026-0288,2026-06-08,Scholarship Inquiry,Student,BSIS,Walk-in,Scholarship Office,Normal,9,5,No,Completed,6.0,3.0
-REQ-2026-0289,2026-05-31,Certification,Student,BSIS,Online,Registrar,High,10,3,Yes,Completed,9.0,3.0
-REQ-2026-0290,2026-05-12,Enrollment Assistance,Student,BSIT,Online,Student Affairs,Normal,8,4,Yes,Completed,10.0,2.0
-REQ-2026-0291,2026-08-11,Records,Faculty,BSCS,Online,Registrar,Normal,9,4,Yes,Completed,1.0,3.0
-REQ-2026-0292,2026-03-18,Records,Student,BSIT,Online,Registrar,High,14,6,Yes,Completed,8.0,2.0
-REQ-2026-0293,2026-09-19,Records,Student,BSIS,Online,Registrar,Normal,6,6,Yes,Completed,6.0,4.0
-REQ-2026-0294,2026-04-04,Enrollment Assistance,Student,BSCS,Online,Student Affairs,Normal,14,4,Yes,Completed,1.0,4.0
-REQ-2026-0295,2026-06-01,Scholarship Inquiry,Faculty,BSIT,Online,Scholarship Office,Normal,6,5,Yes,Cancelled,,
-REQ-2026-0296,2026-05-25,ID Replacement,Student,BSIT,Online,Student Affairs,Normal,12,7,Yes,Completed,4.0,5.0
-REQ-2026-0297,2026-08-22,Records,Student,BSIT,Online,Registrar,High,11,5,No,Completed,9.0,3.0
-REQ-2026-0298,2026-05-03,Finance Clearance,Student,BSBA,Walk-in,Finance,Normal,9,4,Yes,Completed,10.0,4.0
-REQ-2026-0299,2026-03-22,Enrollment Assistance,Student,BSIT,Walk-in,Student Affairs,Normal,7,5,Yes,Completed,3.0,4.0
-REQ-2026-0300,2026-01-10,Enrollment Assistance,Student,BSED,Online,Student Affairs,Normal,6,5,No,Completed,3.0,4.0
-REQ-2026-0301,2026-04-13,Finance Clearance,Faculty,BSIT,Online,Finance,Normal,11,6,Yes,Completed,7.0,3.0
-REQ-2026-0302,2026-08-16,Scholarship Inquiry,Staff,BSCS,Online,Scholarship Office,High,13,6,Yes,Completed,7.0,1.0
-REQ-2026-0303,2026-01-07,ID Replacement,Staff,BSCS,Walk-in,Student Affairs,Normal,10,8,No,Completed,1.0,5.0
-REQ-2026-0304,2026-09-03,Certification,Student,BSCS,Walk-in,Registrar,Normal,9,3,Yes,Completed,7.0,3.0
-REQ-2026-0305,2026-05-31,Records,Student,BSIT,Online,Registrar,High,10,4,Yes,Completed,6.0,3.0
-REQ-2026-0306,2026-02-11,Certification,Faculty,BSCS,Walk-in,Registrar,Normal,7,3,Yes,Completed,3.0,3.0
-REQ-2026-0307,2026-03-27,Certification,Student,BSED,Online,Registrar,Normal,6,2,No,Completed,3.0,3.0
-REQ-2026-0308,2026-06-03,Records,Faculty,BSIT,Online,Registrar,Normal,13,4,Yes,Completed,10.0,2.0
-REQ-2026-0309,2026-03-31,Records,Student,BSED,Walk-in,Registrar,Normal,11,6,Yes,Completed,5.0,5.0
-REQ-2026-0310,2026-02-03,Finance Clearance,Student,BSBA,Online,Finance,Normal,13,6,Yes,Completed,3.0,4.0
-REQ-2026-0311,2026-07-03,Records,Student,BSCS,Online,Registrar,Normal,11,5,Yes,Completed,2.0,4.0
-REQ-2026-0312,2026-07-05,Certification,Faculty,BSCS,Online,Registrar,Normal,11,3,Yes,Cancelled,,
-REQ-2026-0313,2026-02-06,Records,Student,BSBA,Online,Registrar,Normal,9,4,Yes,Open,,
-REQ-2026-0314,2026-03-21,ID Replacement,Student,BSCS,Walk-in,Student Affairs,Normal,7,6,No,Completed,4.0,5.0
-REQ-2026-0315,2026-03-11,Finance Clearance,Student,BSCS,Walk-in,Finance,High,10,6,Yes,Completed,4.0,3.0
-REQ-2026-0316,2026-07-02,Enrollment Assistance,Student,BSED,Online,Student Affairs,Normal,3,4,Yes,Open,,
-REQ-2026-0317,2026-07-21,Finance Clearance,Student,BSIT,Online,Finance,Normal,11,5,Yes,Completed,6.0,2.0
-REQ-2026-0318,2026-07-20,ID Replacement,Faculty,BSIS,Walk-in,Student Affairs,High,11,7,Yes,Completed,7.0,5.0
-REQ-2026-0319,2026-09-15,Enrollment Assistance,Student,BSIT,Online,Student Affairs,Normal,11,3,Yes,Completed,9.0,3.0
-REQ-2026-0320,2026-07-31,Enrollment Assistance,Faculty,BSIT,Walk-in,Student Affairs,Normal,11,5,Yes,Completed,2.0,3.0
-REQ-2026-0321,2026-04-01,Enrollment Assistance,Staff,BSED,Walk-in,Student Affairs,Normal,11,5,Yes,Completed,1.0,4.0
-REQ-2026-0322,2026-02-03,Finance Clearance,Student,BSBA,Online,Finance,Normal,8,5,Yes,Completed,4.0,3.0
-REQ-2026-0323,2026-06-19,ID Replacement,Student,BSIS,Walk-in,Student Affairs,High,14,7,Yes,Completed,1.0,4.0
-REQ-2026-0324,2026-09-09,Enrollment Assistance,Student,BSIS,Online,Student Affairs,Normal,5,4,Yes,Completed,1.0,3.0
-REQ-2026-0325,2026-09-25,ID Replacement,Student,BSBA,Online,Student Affairs,Normal,7,8,Yes,Cancelled,,
-REQ-2026-0326,2026-03-08,ID Replacement,Student,BSIS,Online,Student Affairs,Normal,13,7,No,Completed,1.0,4.0
-REQ-2026-0327,2026-03-09,Finance Clearance,Staff,BSCS,Online,Finance,Normal,11,5,No,Completed,9.0,4.0
-REQ-2026-0328,2026-01-15,Enrollment Assistance,Staff,BSIS,Walk-in,Student Affairs,Normal,9,4,No,Completed,5.0,3.0
-REQ-2026-0329,2026-02-12,Scholarship Inquiry,Faculty,BSIS,Walk-in,Scholarship Office,Normal,12,5,No,Completed,7.0,2.0
-REQ-2026-0330,2026-06-03,Scholarship Inquiry,Student,BSED,Walk-in,Scholarship Office,Normal,9,5,Yes,Completed,3.0,5.0
-REQ-2026-0331,2026-06-01,Records,Student,BSIS,Walk-in,Registrar,Normal,6,5,No,Completed,4.0,3.0
-REQ-2026-0332,2026-04-15,Enrollment Assistance,Faculty,BSIS,Online,Student Affairs,Normal,9,3,Yes,Completed,2.0,3.0
-REQ-2026-0333,2026-03-29,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,Normal,10,4,Yes,Completed,8.0,3.0
-REQ-2026-0334,2026-08-17,Finance Clearance,Student,BSIS,Walk-in,Finance,Normal,5,6,Yes,Completed,12.0,1.0
-REQ-2026-0335,2026-05-09,Enrollment Assistance,Student,BSED,Walk-in,Student Affairs,Normal,13,4,Yes,Completed,1.0,4.0
-REQ-2026-0336,2026-08-11,Certification,Student,BSIS,Online,Registrar,Normal,5,3,Yes,Completed,3.0,3.0
-REQ-2026-0337,2026-09-22,Records,Student,BSIS,Online,Registrar,Normal,18,5,Yes,Completed,11.0,3.0
-REQ-2026-0338,2026-03-31,Records,Student,BSIS,Online,Registrar,Normal,14,5,Yes,Completed,5.0,3.0
-REQ-2026-0339,2026-02-28,Records,Student,BSBA,Online,Registrar,High,10,6,No,Completed,11.0,3.0
-REQ-2026-0340,2026-09-19,Records,Faculty,BSBA,Walk-in,Registrar,Normal,13,4,Yes,Completed,6.0,3.0
-REQ-2026-0341,2026-06-25,Enrollment Assistance,Staff,BSIT,Online,Student Affairs,High,8,5,Yes,Open,,
-REQ-2026-0342,2026-03-24,Records,Student,BSCS,Walk-in,Registrar,Normal,10,4,Yes,Cancelled,,
-REQ-2026-0343,2026-06-21,Enrollment Assistance,Faculty,BSIS,Walk-in,Student Affairs,Normal,10,4,Yes,Completed,1.0,3.0
-REQ-2026-0344,2026-05-24,Certification,Staff,BSIT,Walk-in,Registrar,Normal,5,3,Yes,Completed,5.0,3.0
-REQ-2026-0345,2026-09-06,Finance Clearance,Student,BSCS,Online,Finance,Normal,6,6,Yes,Open,,
-REQ-2026-0346,2026-03-15,Records,Student,BSIT,Online,Registrar,Normal,10,4,Yes,Completed,5.0,3.0
-REQ-2026-0347,2026-09-29,ID Replacement,Student,BSBA,Walk-in,Student Affairs,Normal,6,7,Yes,Open,,
-REQ-2026-0348,2026-09-14,Enrollment Assistance,Student,BSED,Walk-in,Student Affairs,Normal,9,3,No,Completed,4.0,5.0
-REQ-2026-0349,2026-02-22,Enrollment Assistance,Faculty,BSIT,Online,Student Affairs,Normal,15,3,No,Completed,8.0,2.0
-REQ-2026-0350,2026-02-18,Records,Student,BSIS,Walk-in,Registrar,Normal,13,6,Yes,Open,,
-REQ-2026-0351,2026-05-28,Finance Clearance,Student,BSCS,Online,Finance,Normal,11,5,Yes,Completed,11.0,2.0
-REQ-2026-0352,2026-01-17,Certification,Student,BSED,Walk-in,Registrar,Normal,12,3,No,Completed,7.0,3.0
-REQ-2026-0353,2026-03-26,Enrollment Assistance,Student,BSIT,Online,Student Affairs,Normal,13,4,Yes,Completed,1.0,4.0
-REQ-2026-0354,2026-05-02,Scholarship Inquiry,Staff,BSBA,Online,Scholarship Office,Normal,10,5,Yes,Completed,6.0,3.0
-REQ-2026-0355,2026-09-23,Finance Clearance,Student,BSIT,Online,Finance,Normal,8,5,Yes,Completed,9.0,4.0
-REQ-2026-0356,2026-09-29,ID Replacement,Student,BSIS,Online,Student Affairs,Normal,10,7,Yes,Completed,1.0,4.0
-REQ-2026-0357,2026-02-14,Certification,Student,BSED,Online,Registrar,High,19,3,Yes,Completed,4.0,4.0
-REQ-2026-0358,2026-09-02,Finance Clearance,Student,BSBA,Online,Finance,Normal,8,6,Yes,Completed,5.0,5.0
-REQ-2026-0359,2026-01-29,ID Replacement,Student,BSED,Online,Student Affairs,Normal,10,7,Yes,Cancelled,,
-REQ-2026-0360,2026-07-26,Finance Clearance,Student,BSED,Walk-in,Finance,High,8,5,Yes,Completed,3.0,4.0
-REQ-2026-0361,2026-08-21,Enrollment Assistance,Student,BSCS,Online,Student Affairs,High,10,4,Yes,Completed,5.0,5.0
-REQ-2026-0362,2026-09-02,Records,Student,BSCS,Walk-in,Registrar,Normal,11,6,Yes,Completed,9.0,2.0
-REQ-2026-0363,2026-03-06,Records,Faculty,BSCS,Walk-in,Registrar,High,12,5,No,Open,,
-REQ-2026-0364,2026-09-03,Scholarship Inquiry,Student,BSED,Online,Scholarship Office,High,11,6,Yes,Cancelled,,
-REQ-2026-0365,2026-02-05,Scholarship Inquiry,Student,BSIT,Online,Scholarship Office,Normal,2,5,Yes,Completed,8.0,4.0
-REQ-2026-0366,2026-05-25,ID Replacement,Student,BSIT,Walk-in,Student Affairs,Normal,10,7,Yes,Completed,1.0,5.0
-REQ-2026-0367,2026-05-11,Scholarship Inquiry,Faculty,BSED,Walk-in,Scholarship Office,Normal,6,6,No,Completed,7.0,2.0
-REQ-2026-0368,2026-03-31,Scholarship Inquiry,Student,BSBA,Online,Scholarship Office,Normal,4,5,Yes,Completed,8.0,3.0
-REQ-2026-0369,2026-01-10,Records,Student,BSED,Walk-in,Registrar,Normal,8,4,No,Completed,5.0,3.0
-REQ-2026-0370,2026-08-01,Records,Student,BSED,Online,Registrar,Normal,9,5,Yes,Completed,1.0,4.0
-REQ-2026-0371,2026-04-05,ID Replacement,Student,BSIS,Online,Student Affairs,Normal,11,6,Yes,Open,,
-REQ-2026-0372,2026-07-02,Enrollment Assistance,Faculty,BSCS,Walk-in,Student Affairs,Normal,8,4,Yes,Completed,2.0,4.0
-REQ-2026-0373,2026-04-25,Enrollment Assistance,Student,BSBA,Online,Student Affairs,Normal,5,5,Yes,Completed,2.0,4.0
-REQ-2026-0374,2026-04-15,Records,Faculty,BSED,Walk-in,Registrar,High,9,5,No,Completed,1.0,4.0
-REQ-2026-0375,2026-09-01,Finance Clearance,Staff,BSIS,Online,Finance,Normal,10,5,No,Completed,9.0,3.0
-REQ-2026-0376,2026-01-30,Scholarship Inquiry,Student,BSCS,Walk-in,Scholarship Office,Normal,11,5,Yes,Completed,8.0,3.0
-REQ-2026-0377,2026-07-22,Finance Clearance,Staff,BSIT,Online,Finance,Normal,12,4,No,Open,,
-REQ-2026-0378,2026-07-25,Scholarship Inquiry,Student,BSBA,Online,Scholarship Office,High,14,5,Yes,Completed,6.0,2.0
-REQ-2026-0379,2026-04-17,Finance Clearance,Staff,BSIS,Online,Finance,High,10,5,Yes,Completed,4.0,5.0
-REQ-2026-0380,2026-03-16,ID Replacement,Student,BSBA,Online,Student Affairs,High,8,6,Yes,Open,,
-REQ-2026-0381,2026-01-06,Enrollment Assistance,Student,BSCS,Walk-in,Student Affairs,High,7,4,Yes,Completed,4.0,4.0
-REQ-2026-0382,2026-09-14,Finance Clearance,Student,BSCS,Online,Finance,Normal,11,5,No,Completed,7.0,3.0
-REQ-2026-0383,2026-09-17,Certification,Student,BSIT,Online,Registrar,Normal,11,4,Yes,Completed,6.0,4.0
-REQ-2026-0384,2026-03-11,Certification,Student,BSIT,Online,Registrar,Normal,8,2,Yes,Completed,2.0,3.0
-REQ-2026-0385,2026-01-13,Certification,Staff,BSBA,Online,Registrar,Normal,5,4,Yes,Completed,4.0,4.0
-REQ-2026-0386,2026-02-07,ID Replacement,Student,BSCS,Walk-in,Student Affairs,High,10,7,Yes,Open,,
-REQ-2026-0387,2026-01-23,Certification,Student,BSED,Online,Registrar,Normal,10,3,Yes,Completed,9.0,3.0
-REQ-2026-0388,2026-08-17,ID Replacement,Student,BSIS,Walk-in,Student Affairs,Normal,13,7,Yes,Completed,7.0,3.0
-REQ-2026-0389,2026-09-02,Certification,Student,BSED,Online,Registrar,Normal,12,3,Yes,Completed,3.0,4.0
-REQ-2026-0390,2026-02-15,Finance Clearance,Student,BSIS,Walk-in,Finance,Normal,8,6,Yes,Completed,9.0,1.0
-REQ-2026-0391,2026-07-25,Enrollment Assistance,Staff,BSBA,Online,Student Affairs,Normal,13,3,Yes,Open,,
-REQ-2026-0392,2026-02-22,Certification,Student,BSCS,Online,Registrar,Normal,9,2,Yes,Completed,4.0,2.0
-REQ-2026-0393,2026-04-14,ID Replacement,Student,BSCS,Walk-in,Student Affairs,High,5,8,Yes,Completed,6.0,3.0
-REQ-2026-0394,2026-06-15,Records,Student,BSIS,Walk-in,Registrar,Normal,14,5,No,Completed,10.0,4.0
-REQ-2026-0395,2026-07-18,Scholarship Inquiry,Student,BSBA,Walk-in,Scholarship Office,High,9,6,No,Completed,8.0,2.0
-REQ-2026-0396,2026-08-29,Records,Student,BSIS,Online,Registrar,Normal,10,5,Yes,Completed,5.0,5.0
-REQ-2026-0397,2026-01-17,Certification,Faculty,BSBA,Online,Registrar,Normal,15,2,No,Completed,8.0,2.0
-REQ-2026-0398,2026-02-27,Enrollment Assistance,Student,BSBA,Walk-in,Student Affairs,Normal,11,3,Yes,Completed,9.0,4.0
-REQ-2026-0399,2026-03-21,ID Replacement,Staff,BSED,Online,Student Affairs,High,11,7,Yes,Completed,1.0,5.0
-REQ-2026-0400,2026-03-29,Certification,Student,BSBA,Walk-in,Registrar,Normal,9,2,Yes,Open,,
+Request_ID,Service_Type,Requester_Type,Submission_Date,Requested_Channel,Priority,Assigned_Office,Queue_Length,Required_Documents_Complete,Processing_Days,SLA_Days,Status,Reopened,Satisfaction_Score,Submission_Weekday
+SR0001,Enrollment,Student,2025-03-15,Walk-in,Normal,Student Affairs,12,No,8.0,5,Completed,No,4.0,Saturday
+SR0002,Enrollment,Student,2025-02-04,Portal,Normal,Student Affairs,8,Yes,4.0,5,Completed,No,5.0,Tuesday
+SR0003,Enrollment,Student,2025-06-08,Portal,High,Student Affairs,5,Yes,6.0,3,Completed,No,3.0,Sunday
+SR0004,IT Support,Student,2025-10-21,Portal,Normal,IT Services,9,Yes,2.0,6,Completed,Yes,4.0,Tuesday
+SR0005,Certification,Student,2025-12-30,Portal,Normal,Registrar,4,Yes,6.0,5,Completed,No,4.0,Tuesday
+SR0006,Scholarship Inquiry,Student,2025-08-31,Portal,Normal,Scholarship Office,11,Yes,,6,Pending,No,,Sunday
+SR0007,Records,Student,2025-06-19,Portal,Low,Registrar,11,Yes,7.0,7,Completed,Yes,3.0,Thursday
+SR0008,Records,Staff,2025-11-09,Portal,Normal,Registrar,7,No,5.0,5,Completed,No,3.0,Sunday
+SR0009,IT Support,Student,2025-01-04,Portal,High,IT Services,8,No,4.0,4,Completed,No,5.0,Saturday
+SR0010,Enrollment,Faculty,2025-11-24,Portal,High,Student Affairs,6,No,8.0,3,Completed,No,3.0,Monday
+SR0011,IT Support,Student,2025-05-30,Email,Normal,IT Services,7,Yes,,6,Pending,No,,Friday
+SR0012,Certification,Student,2025-05-17,Walk-in,Normal,Registrar,3,Yes,1.0,5,Completed,No,3.0,Saturday
+SR0013,Records,Faculty,2025-10-29,Email,Normal,Registrar,9,Yes,5.0,5,Completed,No,4.0,Wednesday
+SR0014,Finance,Student,2025-02-17,Walk-in,High,Finance Office,6,Yes,,3,Pending,No,,Monday
+SR0015,Certification,Student,2025-12-18,Portal,Normal,Registrar,6,Yes,,5,Pending,No,,Thursday
+SR0016,Records,Staff,2025-11-13,Portal,Normal,Registrar,3,Yes,3.0,5,Completed,No,4.0,Thursday
+SR0017,Certification,Student,2025-07-15,Walk-in,High,Registrar,6,Yes,,3,Pending,No,,Tuesday
+SR0018,Finance,Student,2025-01-16,Email,High,Finance Office,13,Yes,7.0,3,Completed,No,4.0,Thursday
+SR0019,Certification,Student,2025-10-17,Email,Normal,Registrar,14,Yes,7.0,5,Completed,Yes,2.0,Friday
+SR0020,Records,Staff,2025-12-13,Email,Normal,Registrar,11,Yes,6.0,5,Completed,No,3.0,Saturday
+SR0021,Records,Student,2025-09-24,Portal,Normal,Registrar,9,No,5.0,5,Completed,No,3.0,Wednesday
+SR0022,Finance,Faculty,2025-06-02,Portal,Normal,Finance Office,9,Yes,3.0,5,Completed,No,3.0,Monday
+SR0023,Certification,Staff,2025-05-23,Email,Low,Registrar,12,Yes,5.0,7,Completed,No,4.0,Friday
+SR0024,Scholarship Inquiry,Student,2025-12-30,Portal,Low,Scholarship Office,13,Yes,10.0,8,Completed,No,3.0,Tuesday
+SR0025,Scholarship Inquiry,Student,2025-07-10,Portal,Normal,Scholarship Office,6,Yes,,6,Cancelled,No,,Thursday
+SR0026,Enrollment,Student,2025-12-24,Portal,Low,Student Affairs,13,Yes,6.0,7,Completed,No,4.0,Wednesday
+SR0027,Scholarship Inquiry,Student,2025-12-13,Portal,Normal,Scholarship Office,7,Yes,7.0,6,Completed,No,4.0,Saturday
+SR0028,Certification,Student,2025-08-03,Portal,Normal,Registrar,11,Yes,5.0,5,Completed,No,5.0,Sunday
+SR0029,Scholarship Inquiry,Student,2025-06-01,Email,High,Scholarship Office,11,Yes,9.0,4,Completed,No,3.0,Sunday
+SR0030,Enrollment,Staff,2025-05-16,Portal,High,Student Affairs,8,Yes,5.0,3,Completed,No,4.0,Friday
+SR0031,IT Support,Student,2025-04-09,Portal,Low,IT Services,16,No,,8,Pending,No,,Wednesday
+SR0032,IT Support,Student,2025-03-30,Portal,Normal,IT Services,7,Yes,2.0,6,Completed,No,3.0,Sunday
+SR0033,Scholarship Inquiry,Staff,2025-12-26,Email,Normal,Scholarship Office,16,Yes,7.0,6,Completed,No,4.0,Friday
+SR0034,Finance,Student,2025-10-05,Email,Low,Finance Office,10,Yes,3.0,7,Completed,No,3.0,Sunday
+SR0035,Enrollment,Student,2025-03-27,Portal,Normal,Student Affairs,3,Yes,4.0,5,Completed,No,2.0,Thursday
+SR0036,Certification,Faculty,2025-11-10,Portal,Normal,Registrar,9,Yes,5.0,5,Completed,No,3.0,Monday
+SR0037,IT Support,Student,2025-05-06,Walk-in,Normal,IT Services,3,Yes,5.0,6,Completed,No,3.0,Tuesday
+SR0038,Enrollment,Student,2025-02-19,Portal,High,Student Affairs,10,No,8.0,3,Completed,No,3.0,Wednesday
+SR0039,Certification,Student,2025-04-04,Walk-in,Normal,Registrar,9,No,6.0,5,Completed,No,3.0,Friday
+SR0040,IT Support,Student,2025-10-25,Portal,Low,IT Services,8,Yes,6.0,8,Completed,Yes,3.0,Saturday
+SR0041,Records,Student,2025-05-30,Portal,Normal,Registrar,10,Yes,6.0,5,Completed,Yes,3.0,Friday
+SR0042,Finance,Student,2025-06-07,Portal,Low,Finance Office,9,No,12.0,7,Completed,No,3.0,Saturday
+SR0043,Certification,Staff,2025-11-28,Portal,Normal,Registrar,8,Yes,2.0,5,Completed,No,3.0,Friday
+SR0044,Scholarship Inquiry,Student,2025-12-26,Portal,High,Scholarship Office,7,Yes,11.0,4,Completed,No,4.0,Friday
+SR0045,Enrollment,Student,2025-09-21,Email,Normal,Student Affairs,8,Yes,3.0,5,Completed,No,5.0,Sunday
+SR0046,IT Support,Student,2025-01-19,Walk-in,Normal,IT Services,5,No,6.0,6,Completed,No,3.0,Sunday
+SR0047,Records,Student,2025-03-30,Walk-in,High,Registrar,13,Yes,9.0,3,Completed,No,3.0,Sunday
+SR0048,Scholarship Inquiry,Faculty,2025-03-19,Portal,Normal,Scholarship Office,10,Yes,,6,Cancelled,No,,Wednesday
+SR0049,Records,Student,2025-06-24,Walk-in,Normal,Registrar,8,Yes,5.0,5,Completed,No,4.0,Tuesday
+SR0050,Finance,Staff,2025-03-15,Walk-in,High,Finance Office,6,Yes,5.0,3,Completed,No,4.0,Saturday
+SR0051,IT Support,Student,2025-11-01,Portal,Normal,IT Services,9,Yes,6.0,6,Completed,No,5.0,Saturday
+SR0052,Enrollment,Student,2025-05-28,Portal,Normal,Student Affairs,10,Yes,7.0,5,Completed,No,4.0,Wednesday
+SR0053,IT Support,Student,2025-05-19,Portal,Low,IT Services,16,Yes,,8,Pending,No,,Monday
+SR0054,Enrollment,Faculty,2025-02-13,Portal,High,Student Affairs,5,Yes,5.0,3,Completed,No,4.0,Thursday
+SR0055,Finance,Student,2025-04-21,Email,Normal,Finance Office,10,No,7.0,5,Completed,No,5.0,Monday
+SR0056,Certification,Student,2025-08-29,Portal,Normal,Registrar,9,Yes,5.0,5,Completed,Yes,3.0,Friday
+SR0057,Records,Student,2025-11-30,Walk-in,Normal,Registrar,7,Yes,4.0,5,Completed,No,4.0,Sunday
+SR0058,Certification,Staff,2025-09-01,Portal,Normal,Registrar,10,Yes,,5,Pending,No,,Monday
+SR0059,Enrollment,Staff,2025-03-27,Email,Normal,Student Affairs,9,No,6.0,5,Completed,No,4.0,Thursday
+SR0060,Enrollment,Student,2025-10-06,Email,Low,Student Affairs,12,Yes,,7,Pending,No,,Monday
+SR0061,Records,Faculty,2025-07-04,Portal,Normal,Registrar,12,Yes,,5,Pending,No,,Friday
+SR0062,Enrollment,Student,2025-07-21,Portal,Normal,Student Affairs,8,Yes,5.0,5,Completed,No,4.0,Monday
+SR0063,Scholarship Inquiry,Faculty,2025-01-24,Portal,Low,Scholarship Office,14,Yes,7.0,8,Completed,Yes,4.0,Friday
+SR0064,Records,Student,2025-11-11,Email,Normal,Registrar,11,Yes,3.0,5,Completed,No,5.0,Tuesday
+SR0065,Records,Student,2025-08-15,Email,Normal,Registrar,10,Yes,,5,Pending,No,,Friday
+SR0066,Records,Faculty,2025-04-05,Portal,Normal,Registrar,7,Yes,4.0,5,Completed,No,3.0,Saturday
+SR0067,Certification,Student,2025-05-05,Portal,Normal,Registrar,7,Yes,8.0,5,Completed,No,4.0,Monday
+SR0068,Finance,Student,2025-04-07,Portal,Normal,Finance Office,12,Yes,,5,Pending,No,,Monday
+SR0069,Certification,Student,2025-05-19,Portal,Normal,Registrar,11,Yes,8.0,5,Completed,No,3.0,Monday
+SR0070,Enrollment,Student,2025-12-05,Email,High,Student Affairs,7,Yes,9.0,3,Completed,Yes,4.0,Friday
+SR0071,Enrollment,Student,2025-07-27,Portal,Low,Student Affairs,15,Yes,6.0,7,Completed,Yes,4.0,Sunday
+SR0072,IT Support,Student,2025-10-15,Walk-in,Normal,IT Services,9,Yes,2.0,6,Completed,No,4.0,Wednesday
+SR0073,Certification,Student,2025-12-17,Portal,Normal,Registrar,6,Yes,9.0,5,Completed,No,5.0,Wednesday
+SR0074,Scholarship Inquiry,Student,2025-07-10,Portal,Low,Scholarship Office,13,Yes,12.0,8,Completed,No,3.0,Thursday
+SR0075,IT Support,Student,2025-03-04,Portal,Low,IT Services,14,Yes,7.0,8,Completed,No,5.0,Tuesday
+SR0076,Scholarship Inquiry,Student,2025-12-20,Portal,Normal,Scholarship Office,8,Yes,,6,Cancelled,No,,Saturday
+SR0077,IT Support,Staff,2025-07-25,Walk-in,Normal,IT Services,7,Yes,,6,Pending,No,,Friday
+SR0078,Certification,Student,2025-01-18,Portal,Normal,Registrar,11,No,6.0,5,Completed,No,4.0,Saturday
+SR0079,IT Support,Student,2025-07-07,Walk-in,Normal,IT Services,6,Yes,4.0,6,Completed,Yes,4.0,Monday
+SR0080,Scholarship Inquiry,Faculty,2025-06-24,Portal,Normal,Scholarship Office,14,Yes,8.0,6,Completed,No,3.0,Tuesday
+SR0081,Records,Staff,2025-05-25,Portal,Low,Registrar,12,Yes,4.0,7,Completed,Yes,3.0,Sunday
+SR0082,Enrollment,Student,2025-04-17,Email,Normal,Student Affairs,9,Yes,7.0,5,Completed,No,2.0,Thursday
+SR0083,Enrollment,Staff,2025-01-09,Portal,Normal,Student Affairs,8,Yes,7.0,5,Completed,No,2.0,Thursday
+SR0084,Records,Student,2025-11-13,Email,High,Registrar,12,Yes,4.0,3,Completed,No,3.0,Thursday
+SR0085,Records,Student,2025-12-03,Email,Normal,Registrar,9,Yes,5.0,5,Completed,No,3.0,Wednesday
+SR0086,Records,Student,2025-11-30,Walk-in,Low,Registrar,11,Yes,,7,Pending,No,,Sunday
+SR0087,Scholarship Inquiry,Staff,2025-03-30,Portal,Normal,Scholarship Office,7,Yes,,6,Pending,No,,Sunday
+SR0088,Certification,Student,2025-12-04,Portal,Low,Registrar,10,Yes,,7,Pending,No,,Thursday
+SR0089,Enrollment,Student,2025-07-17,Portal,High,Student Affairs,13,Yes,6.0,3,Completed,No,3.0,Thursday
+SR0090,Enrollment,Staff,2025-04-22,Portal,Normal,Student Affairs,14,Yes,5.0,5,Completed,No,4.0,Tuesday
+SR0091,Certification,Student,2025-04-18,Portal,Normal,Registrar,6,Yes,4.0,5,Completed,No,5.0,Friday
+SR0092,Records,Student,2025-08-29,Portal,High,Registrar,7,No,6.0,3,Completed,No,4.0,Friday
+SR0093,IT Support,Student,2025-01-07,Email,Normal,IT Services,10,Yes,,6,Cancelled,No,,Tuesday
+SR0094,Records,Faculty,2025-11-21,Portal,Normal,Registrar,11,Yes,6.0,5,Completed,No,3.0,Friday
+SR0095,Records,Student,2025-06-15,Portal,Normal,Registrar,12,Yes,5.0,5,Completed,No,3.0,Sunday
+SR0096,Scholarship Inquiry,Student,2025-09-09,Email,Normal,Scholarship Office,13,Yes,10.0,6,Completed,No,4.0,Tuesday
+SR0097,Records,Student,2025-07-16,Portal,Normal,Registrar,6,Yes,4.0,5,Completed,No,4.0,Wednesday
+SR0098,IT Support,Student,2025-09-25,Email,High,IT Services,12,No,9.0,4,Completed,No,3.0,Thursday
+SR0099,Finance,Faculty,2025-08-21,Portal,Normal,Finance Office,10,Yes,6.0,5,Completed,Yes,4.0,Thursday
+SR0100,Records,Student,2025-07-19,Portal,Low,Registrar,7,Yes,6.0,7,Completed,Yes,5.0,Saturday
+SR0101,Enrollment,Student,2025-05-04,Portal,High,Student Affairs,10,Yes,9.0,3,Completed,Yes,2.0,Sunday
+SR0102,Scholarship Inquiry,Student,2025-07-20,Email,High,Scholarship Office,6,Yes,8.0,4,Completed,No,3.0,Sunday
+SR0103,Records,Staff,2025-07-09,Portal,High,Registrar,9,Yes,7.0,3,Completed,No,3.0,Wednesday
+SR0104,Scholarship Inquiry,Faculty,2025-12-14,Portal,Normal,Scholarship Office,11,No,8.0,6,Completed,No,3.0,Sunday
+SR0105,Scholarship Inquiry,Staff,2025-09-02,Portal,Low,Scholarship Office,14,Yes,8.0,8,Completed,No,4.0,Tuesday
+SR0106,Scholarship Inquiry,Student,2025-09-04,Portal,Low,Scholarship Office,11,Yes,11.0,8,Completed,No,3.0,Thursday
+SR0107,Certification,Student,2025-08-19,Portal,Low,Registrar,10,Yes,6.0,7,Completed,No,5.0,Tuesday
+SR0108,Records,Student,2025-07-08,Portal,Low,Registrar,12,Yes,8.0,7,Completed,No,3.0,Tuesday
+SR0109,Certification,Staff,2025-12-22,Portal,High,Registrar,10,Yes,7.0,3,Completed,No,3.0,Monday
+SR0110,Certification,Student,2025-04-05,Portal,Normal,Registrar,8,Yes,11.0,5,Completed,No,4.0,Saturday
+SR0111,Finance,Student,2025-09-08,Email,Normal,Finance Office,6,No,7.0,5,Completed,Yes,2.0,Monday
+SR0112,Certification,Student,2025-12-29,Portal,Low,Registrar,8,Yes,,7,Cancelled,No,,Monday
+SR0113,IT Support,Student,2025-01-25,Portal,Normal,IT Services,12,Yes,4.0,6,Completed,No,3.0,Saturday
+SR0114,Certification,Student,2025-10-07,Portal,Normal,Registrar,10,Yes,6.0,5,Completed,No,4.0,Tuesday
+SR0115,Enrollment,Student,2025-07-01,Walk-in,Normal,Student Affairs,9,Yes,4.0,5,Completed,No,4.0,Tuesday
+SR0116,IT Support,Student,2025-12-20,Email,Low,IT Services,13,No,,8,Pending,No,,Saturday
+SR0117,Records,Staff,2025-04-30,Walk-in,Normal,Registrar,7,Yes,9.0,5,Completed,Yes,3.0,Wednesday
+SR0118,Scholarship Inquiry,Faculty,2025-05-10,Portal,Normal,Scholarship Office,7,Yes,7.0,6,Completed,No,3.0,Saturday
+SR0119,Enrollment,Student,2025-04-20,Portal,High,Student Affairs,9,Yes,5.0,3,Completed,No,3.0,Sunday
+SR0120,IT Support,Student,2025-07-10,Email,High,IT Services,7,Yes,3.0,4,Completed,No,4.0,Thursday
+SR0121,Records,Student,2025-08-03,Walk-in,Normal,Registrar,4,Yes,,5,Pending,No,,Sunday
+SR0122,IT Support,Student,2025-08-11,Portal,Normal,IT Services,9,Yes,5.0,6,Completed,No,4.0,Monday
+SR0123,Records,Student,2025-05-26,Portal,Normal,Registrar,9,No,11.0,5,Completed,Yes,4.0,Monday
+SR0124,Records,Student,2025-12-26,Portal,Normal,Registrar,4,Yes,2.0,5,Completed,No,4.0,Friday
+SR0125,Enrollment,Student,2025-05-27,Portal,High,Student Affairs,10,Yes,8.0,3,Completed,No,4.0,Tuesday
+SR0126,Enrollment,Student,2025-02-24,Portal,Normal,Student Affairs,4,Yes,10.0,5,Completed,No,4.0,Monday
+SR0127,IT Support,Student,2025-04-22,Portal,Low,IT Services,14,Yes,,8,Pending,No,,Tuesday
+SR0128,Finance,Student,2025-08-06,Portal,Normal,Finance Office,5,Yes,5.0,5,Completed,No,2.0,Wednesday
+SR0129,Records,Student,2025-01-22,Email,Normal,Registrar,13,Yes,4.0,5,Completed,No,4.0,Wednesday
+SR0130,Scholarship Inquiry,Student,2025-10-30,Email,Normal,Scholarship Office,9,Yes,,6,Pending,No,,Thursday
+SR0131,IT Support,Student,2025-01-14,Portal,High,IT Services,5,No,6.0,4,Completed,Yes,4.0,Tuesday
+SR0132,Enrollment,Student,2025-09-22,Email,High,Student Affairs,9,Yes,11.0,3,Completed,No,4.0,Monday
+SR0133,Enrollment,Student,2025-08-29,Portal,High,Student Affairs,8,Yes,4.0,3,Completed,No,4.0,Friday
+SR0134,Certification,Student,2025-12-09,Walk-in,Low,Registrar,15,Yes,6.0,7,Completed,No,4.0,Tuesday
+SR0135,Finance,Student,2025-07-20,Portal,Normal,Finance Office,8,Yes,8.0,5,Completed,No,4.0,Sunday
+SR0136,Certification,Student,2025-07-18,Portal,Normal,Registrar,11,No,11.0,5,Completed,Yes,3.0,Friday
+SR0137,Certification,Student,2025-11-08,Portal,Normal,Registrar,11,Yes,5.0,5,Completed,No,3.0,Saturday
+SR0138,Scholarship Inquiry,Student,2025-10-08,Walk-in,High,Scholarship Office,15,Yes,12.0,4,Completed,No,4.0,Wednesday
+SR0139,Scholarship Inquiry,Student,2025-08-13,Portal,Normal,Scholarship Office,19,Yes,,6,Pending,No,,Wednesday
+SR0140,Certification,Student,2025-03-18,Portal,High,Registrar,10,Yes,9.0,3,Completed,No,5.0,Tuesday
+SR0141,Records,Student,2025-05-12,Portal,Normal,Registrar,10,Yes,6.0,5,Completed,No,3.0,Monday
+SR0142,Enrollment,Student,2025-03-29,Portal,High,Student Affairs,8,Yes,4.0,3,Completed,No,3.0,Saturday
+SR0143,Enrollment,Student,2025-04-03,Portal,Low,Student Affairs,7,Yes,7.0,7,Completed,No,4.0,Thursday
+SR0144,Records,Student,2025-09-28,Email,Normal,Registrar,7,Yes,4.0,5,Completed,No,3.0,Sunday
+SR0145,Records,Faculty,2025-07-05,Email,High,Registrar,10,No,,3,Pending,No,,Saturday
+SR0146,Records,Student,2025-09-12,Portal,Normal,Registrar,6,Yes,5.0,5,Completed,No,3.0,Friday
+SR0147,Certification,Faculty,2025-03-23,Portal,Normal,Registrar,10,Yes,7.0,5,Completed,No,3.0,Sunday
+SR0148,Records,Faculty,2025-12-27,Email,Low,Registrar,11,No,4.0,7,Completed,No,4.0,Saturday
+SR0149,Enrollment,Student,2025-07-19,Portal,Normal,Student Affairs,10,Yes,7.0,5,Completed,Yes,3.0,Saturday
+SR0150,Certification,Student,2025-06-18,Portal,High,Registrar,11,Yes,7.0,3,Completed,No,3.0,Wednesday
+SR0151,IT Support,Student,2025-12-03,Portal,Normal,IT Services,4,Yes,1.0,6,Completed,No,5.0,Wednesday
+SR0152,Records,Student,2025-02-13,Walk-in,Low,Registrar,11,Yes,6.0,7,Completed,No,4.0,Thursday
+SR0153,Finance,Student,2025-08-05,Email,High,Finance Office,10,Yes,9.0,3,Completed,No,3.0,Tuesday
+SR0154,Records,Student,2025-01-22,Email,Normal,Registrar,10,Yes,1.0,5,Completed,No,3.0,Wednesday
+SR0155,Certification,Student,2025-01-08,Portal,Normal,Registrar,8,Yes,,5,Pending,No,,Wednesday
+SR0156,Records,Student,2025-12-16,Portal,Normal,Registrar,10,Yes,,5,Pending,No,,Tuesday
+SR0157,Certification,Student,2025-09-30,Email,Low,Registrar,12,Yes,,7,Cancelled,No,,Tuesday
+SR0158,Enrollment,Student,2025-03-30,Portal,Normal,Student Affairs,6,No,8.0,5,Completed,No,4.0,Sunday
+SR0159,Finance,Student,2025-05-26,Portal,Normal,Finance Office,10,Yes,,5,Cancelled,No,,Monday
+SR0160,IT Support,Student,2025-05-24,Portal,Normal,IT Services,15,Yes,6.0,6,Completed,No,5.0,Saturday
+SR0161,Certification,Student,2025-01-26,Walk-in,Normal,Registrar,10,Yes,8.0,5,Completed,No,5.0,Sunday
+SR0162,Scholarship Inquiry,Faculty,2025-06-12,Email,Normal,Scholarship Office,10,Yes,,6,Cancelled,No,,Thursday
+SR0163,Finance,Student,2025-07-31,Email,Normal,Finance Office,11,Yes,7.0,5,Completed,No,5.0,Thursday
+SR0164,Records,Student,2025-05-01,Portal,Low,Registrar,12,Yes,5.0,7,Completed,No,5.0,Thursday
+SR0165,Records,Faculty,2025-01-25,Email,Normal,Registrar,3,Yes,6.0,5,Completed,No,4.0,Saturday
+SR0166,Records,Staff,2025-09-17,Portal,High,Registrar,7,Yes,7.0,3,Completed,No,4.0,Wednesday
+SR0167,Scholarship Inquiry,Student,2025-09-12,Walk-in,Normal,Scholarship Office,6,Yes,8.0,6,Completed,No,3.0,Friday
+SR0168,Records,Student,2025-01-02,Email,Normal,Registrar,11,Yes,4.0,5,Completed,No,5.0,Thursday
+SR0169,Enrollment,Student,2025-04-03,Portal,Normal,Student Affairs,7,Yes,3.0,5,Completed,No,4.0,Thursday
+SR0170,Certification,Student,2025-05-10,Portal,Low,Registrar,12,Yes,8.0,7,Completed,No,3.0,Saturday
+SR0171,IT Support,Staff,2025-12-13,Portal,Normal,IT Services,5,Yes,2.0,6,Completed,No,3.0,Saturday
+SR0172,Records,Student,2025-06-28,Email,High,Registrar,11,Yes,6.0,3,Completed,No,3.0,Saturday
+SR0173,IT Support,Student,2025-06-19,Portal,Normal,IT Services,11,No,5.0,6,Completed,Yes,4.0,Thursday
+SR0174,IT Support,Student,2025-05-09,Walk-in,High,IT Services,6,Yes,5.0,4,Completed,No,3.0,Friday
+SR0175,IT Support,Faculty,2025-11-20,Portal,High,IT Services,6,Yes,5.0,4,Completed,No,5.0,Thursday
+SR0176,Enrollment,Student,2025-07-04,Portal,Normal,Student Affairs,7,Yes,1.0,5,Completed,No,5.0,Friday
+SR0177,Scholarship Inquiry,Student,2025-04-11,Portal,Normal,Scholarship Office,8,No,10.0,6,Completed,No,4.0,Friday
+SR0178,Finance,Student,2025-08-02,Walk-in,Normal,Finance Office,12,Yes,9.0,5,Completed,Yes,3.0,Saturday
+SR0179,Scholarship Inquiry,Student,2025-07-01,Email,Normal,Scholarship Office,9,Yes,5.0,6,Completed,No,5.0,Tuesday
+SR0180,Enrollment,Faculty,2025-11-28,Portal,Normal,Student Affairs,11,Yes,4.0,5,Completed,Yes,2.0,Friday
+SR0181,Certification,Student,2025-02-07,Portal,Normal,Registrar,7,Yes,,5,Pending,No,,Friday
+SR0182,Finance,Student,2025-11-17,Email,Normal,Finance Office,7,No,6.0,5,Completed,No,4.0,Monday
+SR0183,IT Support,Student,2025-03-05,Email,High,IT Services,12,No,3.0,4,Completed,No,3.0,Wednesday
+SR0184,Enrollment,Student,2025-12-07,Walk-in,Normal,Student Affairs,4,Yes,6.0,5,Completed,No,5.0,Sunday
+SR0185,Scholarship Inquiry,Staff,2025-11-22,Walk-in,High,Scholarship Office,10,Yes,6.0,4,Completed,Yes,3.0,Saturday
+SR0186,IT Support,Student,2025-10-03,Email,Normal,IT Services,9,Yes,9.0,6,Completed,No,5.0,Friday
+SR0187,IT Support,Student,2025-01-15,Portal,Normal,IT Services,15,Yes,4.0,6,Completed,No,5.0,Wednesday
+SR0188,Certification,Student,2025-10-19,Portal,Normal,Registrar,13,No,9.0,5,Completed,No,3.0,Sunday
+SR0189,IT Support,Student,2025-07-02,Walk-in,Low,IT Services,13,Yes,3.0,8,Completed,No,5.0,Wednesday
+SR0190,Enrollment,Student,2025-02-22,Portal,High,Student Affairs,8,No,,3,Pending,No,,Saturday
+SR0191,Certification,Student,2025-06-10,Email,Low,Registrar,11,Yes,7.0,7,Completed,No,4.0,Tuesday
+SR0192,Records,Student,2025-01-19,Walk-in,High,Registrar,8,Yes,,3,Pending,No,,Sunday
+SR0193,Certification,Student,2025-01-23,Portal,Low,Registrar,11,Yes,2.0,7,Completed,No,4.0,Thursday
+SR0194,Certification,Student,2025-09-27,Portal,Low,Registrar,10,Yes,4.0,7,Completed,No,4.0,Saturday
+SR0195,Finance,Student,2025-05-20,Walk-in,High,Finance Office,19,Yes,8.0,3,Completed,No,4.0,Tuesday
+SR0196,Enrollment,Student,2025-09-24,Portal,Normal,Student Affairs,8,Yes,6.0,5,Completed,No,4.0,Wednesday
+SR0197,Finance,Student,2025-10-21,Portal,Normal,Finance Office,15,No,7.0,5,Completed,No,3.0,Tuesday
+SR0198,Finance,Student,2025-01-22,Portal,Normal,Finance Office,5,Yes,6.0,5,Completed,No,3.0,Wednesday
+SR0199,Records,Student,2025-01-19,Portal,Low,Registrar,13,Yes,,7,Pending,No,,Sunday
+SR0200,IT Support,Student,2025-02-27,Portal,Normal,IT Services,12,Yes,5.0,6,Completed,No,4.0,Thursday
+SR0201,IT Support,Staff,2025-08-21,Portal,Normal,IT Services,8,Yes,6.0,6,Completed,No,4.0,Thursday
+SR0202,Scholarship Inquiry,Student,2025-09-15,Walk-in,Normal,Scholarship Office,7,No,8.0,6,Completed,No,3.0,Monday
+SR0203,Certification,Student,2025-11-17,Walk-in,Normal,Registrar,11,Yes,6.0,5,Completed,No,4.0,Monday
+SR0204,Enrollment,Student,2025-06-19,Portal,Normal,Student Affairs,15,No,,5,Pending,No,,Thursday
+SR0205,IT Support,Student,2025-02-04,Email,Low,IT Services,11,Yes,4.0,8,Completed,No,3.0,Tuesday
+SR0206,Records,Faculty,2025-11-29,Portal,Low,Registrar,14,Yes,5.0,7,Completed,No,3.0,Saturday
+SR0207,Records,Student,2025-01-26,Portal,Normal,Registrar,6,Yes,2.0,5,Completed,Yes,3.0,Sunday
+SR0208,IT Support,Student,2025-02-22,Portal,Low,IT Services,12,Yes,10.0,8,Completed,No,3.0,Saturday
+SR0209,Certification,Faculty,2025-07-26,Portal,Normal,Registrar,7,Yes,6.0,5,Completed,No,4.0,Saturday
+SR0210,Scholarship Inquiry,Student,2025-03-09,Portal,Normal,Scholarship Office,14,Yes,10.0,6,Completed,No,3.0,Sunday
+SR0211,Finance,Student,2025-05-05,Portal,Normal,Finance Office,16,Yes,7.0,5,Completed,No,4.0,Monday
+SR0212,Certification,Student,2025-04-07,Portal,Low,Registrar,9,Yes,8.0,7,Completed,No,3.0,Monday
+SR0213,IT Support,Student,2025-06-24,Portal,Low,IT Services,15,No,8.0,8,Completed,No,4.0,Tuesday
+SR0214,IT Support,Student,2025-02-06,Email,Normal,IT Services,14,Yes,6.0,6,Completed,No,3.0,Thursday
+SR0215,IT Support,Student,2025-01-29,Portal,Normal,IT Services,8,Yes,6.0,6,Completed,No,4.0,Wednesday
+SR0216,Certification,Student,2025-11-09,Portal,Low,Registrar,12,Yes,5.0,7,Completed,No,3.0,Sunday
+SR0217,Scholarship Inquiry,Staff,2025-02-16,Portal,Normal,Scholarship Office,11,Yes,5.0,6,Completed,No,4.0,Sunday
+SR0218,Enrollment,Student,2025-07-22,Portal,Low,Student Affairs,11,Yes,7.0,7,Completed,No,3.0,Tuesday
+SR0219,Certification,Student,2025-02-01,Portal,Normal,Registrar,5,Yes,4.0,5,Completed,No,5.0,Saturday
+SR0220,Records,Student,2025-03-09,Portal,High,Registrar,5,No,6.0,3,Completed,No,5.0,Sunday
+SR0221,IT Support,Student,2025-06-17,Email,Normal,IT Services,5,Yes,7.0,6,Completed,Yes,2.0,Tuesday
+SR0222,Finance,Student,2025-11-08,Walk-in,High,Finance Office,13,Yes,2.0,3,Completed,No,4.0,Saturday
+SR0223,Certification,Student,2025-12-07,Portal,High,Registrar,6,Yes,3.0,3,Completed,No,2.0,Sunday
+SR0224,IT Support,Student,2025-02-27,Portal,Normal,IT Services,5,No,7.0,6,Completed,No,3.0,Thursday
+SR0225,Enrollment,Student,2025-10-24,Email,High,Student Affairs,8,Yes,,3,Pending,No,,Friday
+SR0226,Finance,Student,2025-10-15,Portal,High,Finance Office,2,Yes,6.0,3,Completed,No,3.0,Wednesday
+SR0227,Records,Student,2025-06-15,Walk-in,Normal,Registrar,7,No,8.0,5,Completed,No,5.0,Sunday
+SR0228,IT Support,Student,2025-11-17,Walk-in,Normal,IT Services,6,Yes,2.0,6,Completed,No,5.0,Monday
+SR0229,Records,Faculty,2025-10-11,Portal,Normal,Registrar,11,Yes,3.0,5,Completed,No,4.0,Saturday
+SR0230,Enrollment,Faculty,2025-04-27,Email,Low,Student Affairs,11,Yes,6.0,7,Completed,No,4.0,Sunday
+SR0231,Records,Student,2025-08-23,Portal,Normal,Registrar,7,Yes,,5,Pending,No,,Saturday
+SR0232,IT Support,Student,2025-03-07,Email,Normal,IT Services,6,Yes,4.0,6,Completed,No,4.0,Friday
+SR0233,Enrollment,Staff,2025-05-01,Email,Normal,Student Affairs,7,No,8.0,5,Completed,No,3.0,Thursday
+SR0234,Finance,Student,2025-07-12,Walk-in,Normal,Finance Office,11,No,9.0,5,Completed,Yes,4.0,Saturday
+SR0235,IT Support,Student,2025-09-30,Walk-in,High,IT Services,8,Yes,5.0,4,Completed,No,5.0,Tuesday
+SR0236,Enrollment,Student,2025-02-09,Portal,Normal,Student Affairs,7,Yes,6.0,5,Completed,No,4.0,Sunday
+SR0237,IT Support,Student,2025-12-29,Email,Normal,IT Services,9,Yes,,6,Cancelled,No,,Monday
+SR0238,Certification,Student,2025-07-21,Walk-in,Normal,Registrar,4,Yes,5.0,5,Completed,No,3.0,Monday
+SR0239,Records,Student,2025-01-04,Walk-in,Normal,Registrar,9,Yes,3.0,5,Completed,No,5.0,Saturday
+SR0240,IT Support,Student,2025-04-11,Email,Normal,IT Services,15,Yes,6.0,6,Completed,No,2.0,Friday
+SR0241,Scholarship Inquiry,Student,2025-11-23,Portal,High,Scholarship Office,8,Yes,6.0,4,Completed,No,4.0,Sunday
+SR0242,Scholarship Inquiry,Faculty,2025-03-21,Portal,Normal,Scholarship Office,8,Yes,10.0,6,Completed,No,5.0,Friday
+SR0243,Records,Student,2025-05-08,Portal,Low,Registrar,13,No,6.0,7,Completed,No,3.0,Thursday
+SR0244,Finance,Student,2025-04-10,Portal,Normal,Finance Office,7,Yes,7.0,5,Completed,Yes,4.0,Thursday
+SR0245,Records,Faculty,2025-05-05,Walk-in,Low,Registrar,17,Yes,,7,Cancelled,No,,Monday
+SR0246,Certification,Student,2025-10-05,Portal,Normal,Registrar,9,Yes,7.0,5,Completed,No,4.0,Sunday
+SR0247,IT Support,Student,2025-10-08,Email,Low,IT Services,14,Yes,6.0,8,Completed,No,4.0,Wednesday
+SR0248,Certification,Student,2025-05-03,Portal,Normal,Registrar,11,No,7.0,5,Completed,No,3.0,Saturday
+SR0249,Certification,Student,2025-09-27,Email,Normal,Registrar,5,Yes,3.0,5,Completed,No,4.0,Saturday
+SR0250,Certification,Staff,2025-03-20,Walk-in,Normal,Registrar,8,No,8.0,5,Completed,No,3.0,Thursday
+SR0251,Enrollment,Student,2025-06-07,Portal,Normal,Student Affairs,12,Yes,6.0,5,Completed,No,2.0,Saturday
+SR0252,Certification,Student,2025-01-17,Email,Normal,Registrar,11,Yes,1.0,5,Completed,No,4.0,Friday
+SR0253,Certification,Student,2025-08-04,Portal,Normal,Registrar,7,No,9.0,5,Completed,Yes,3.0,Monday
+SR0254,IT Support,Faculty,2025-02-20,Portal,Normal,IT Services,8,Yes,5.0,6,Completed,No,4.0,Thursday
+SR0255,Certification,Student,2025-10-05,Portal,Normal,Registrar,10,Yes,4.0,5,Completed,No,4.0,Sunday
+SR0256,Enrollment,Student,2025-08-08,Portal,Low,Student Affairs,12,No,,7,Pending,No,,Friday
+SR0257,Scholarship Inquiry,Staff,2025-08-29,Portal,Normal,Scholarship Office,11,Yes,8.0,6,Completed,No,3.0,Friday
+SR0258,Records,Faculty,2025-02-28,Portal,Normal,Registrar,14,Yes,8.0,5,Completed,No,3.0,Friday
+SR0259,Records,Student,2025-01-08,Portal,Normal,Registrar,7,Yes,,5,Pending,No,,Wednesday
+SR0260,Finance,Student,2025-04-27,Portal,Low,Finance Office,9,No,8.0,7,Completed,No,3.0,Sunday
+SR0261,Records,Student,2025-05-04,Portal,Normal,Registrar,9,Yes,2.0,5,Completed,No,3.0,Sunday
+SR0262,IT Support,Student,2025-03-21,Email,Normal,IT Services,10,No,8.0,6,Completed,No,4.0,Friday
+SR0263,Enrollment,Student,2025-02-17,Walk-in,Normal,Student Affairs,9,Yes,4.0,5,Completed,No,4.0,Monday
+SR0264,IT Support,Student,2025-03-29,Email,Low,IT Services,11,Yes,7.0,8,Completed,No,4.0,Saturday
+SR0265,Finance,Student,2025-02-08,Portal,Low,Finance Office,13,Yes,6.0,7,Completed,No,2.0,Saturday
+SR0266,IT Support,Student,2025-05-08,Email,High,IT Services,7,Yes,,4,Pending,No,,Thursday
+SR0267,IT Support,Student,2025-01-10,Walk-in,Low,IT Services,12,Yes,,8,Pending,No,,Friday
+SR0268,Certification,Student,2025-12-05,Portal,Normal,Registrar,6,Yes,,5,Pending,No,,Friday
+SR0269,Enrollment,Faculty,2025-10-08,Portal,High,Student Affairs,5,Yes,2.0,3,Completed,No,3.0,Wednesday
+SR0270,Finance,Student,2025-04-12,Portal,Normal,Finance Office,9,Yes,5.0,5,Completed,No,4.0,Saturday
+SR0271,Scholarship Inquiry,Student,2025-05-05,Portal,Normal,Scholarship Office,11,Yes,8.0,6,Completed,No,4.0,Monday
+SR0272,Records,Student,2025-01-20,Portal,Low,Registrar,7,Yes,,7,Pending,No,,Monday
+SR0273,Certification,Student,2025-01-26,Portal,Normal,Registrar,6,Yes,3.0,5,Completed,No,4.0,Sunday
+SR0274,Certification,Student,2025-02-14,Email,Normal,Registrar,6,Yes,2.0,5,Completed,No,4.0,Friday
+SR0275,Records,Faculty,2025-05-23,Portal,Low,Registrar,15,Yes,,7,Pending,No,,Friday
+SR0276,Finance,Faculty,2025-04-05,Email,High,Finance Office,11,Yes,4.0,3,Completed,No,3.0,Saturday
+SR0277,Certification,Faculty,2025-12-27,Email,Normal,Registrar,8,Yes,11.0,5,Completed,No,4.0,Saturday
+SR0278,Certification,Student,2025-08-01,Email,Normal,Registrar,6,No,6.0,5,Completed,No,3.0,Friday
+SR0279,Finance,Student,2025-04-06,Portal,Normal,Finance Office,9,No,10.0,5,Completed,Yes,2.0,Sunday
+SR0280,Scholarship Inquiry,Student,2025-09-29,Portal,High,Scholarship Office,13,No,,4,Pending,No,,Monday
+SR0281,Certification,Student,2025-08-04,Walk-in,Low,Registrar,13,Yes,7.0,7,Completed,No,4.0,Monday
+SR0282,IT Support,Student,2025-08-07,Walk-in,Normal,IT Services,7,Yes,4.0,6,Completed,No,3.0,Thursday
+SR0283,Records,Student,2025-02-10,Email,Normal,Registrar,6,Yes,5.0,5,Completed,No,4.0,Monday
+SR0284,Finance,Student,2025-10-10,Walk-in,High,Finance Office,11,Yes,,3,Pending,No,,Friday
+SR0285,Finance,Student,2025-09-26,Email,Normal,Finance Office,6,Yes,6.0,5,Completed,Yes,4.0,Friday
+SR0286,Records,Student,2025-07-16,Email,Low,Registrar,11,Yes,5.0,7,Completed,No,5.0,Wednesday
+SR0287,Finance,Student,2025-12-07,Portal,Normal,Finance Office,11,No,10.0,5,Completed,No,3.0,Sunday
+SR0288,IT Support,Student,2025-05-14,Email,High,IT Services,8,Yes,2.0,4,Completed,No,4.0,Wednesday
+SR0289,IT Support,Student,2025-06-14,Portal,Normal,IT Services,12,Yes,2.0,6,Completed,No,4.0,Saturday
+SR0290,IT Support,Student,2025-09-03,Portal,Normal,IT Services,9,Yes,4.0,6,Completed,No,5.0,Wednesday
+SR0291,Certification,Student,2025-10-03,Portal,High,Registrar,5,Yes,2.0,3,Completed,No,5.0,Friday
+SR0292,Scholarship Inquiry,Faculty,2025-04-01,Email,Normal,Scholarship Office,12,Yes,,6,Pending,No,,Tuesday
+SR0293,IT Support,Student,2025-04-16,Portal,Low,IT Services,11,Yes,4.0,8,Completed,No,5.0,Wednesday
+SR0294,Enrollment,Student,2025-11-24,Portal,Normal,Student Affairs,7,Yes,7.0,5,Completed,No,2.0,Monday
+SR0295,Records,Student,2025-06-28,Portal,Normal,Registrar,10,No,10.0,5,Completed,No,4.0,Saturday
+SR0296,Records,Staff,2025-01-18,Email,Low,Registrar,8,Yes,,7,Pending,No,,Saturday
+SR0297,Enrollment,Student,2025-08-19,Walk-in,Normal,Student Affairs,11,Yes,5.0,5,Completed,No,4.0,Tuesday
+SR0298,Records,Student,2025-07-20,Walk-in,Normal,Registrar,6,Yes,4.0,5,Completed,No,4.0,Sunday
+SR0299,Enrollment,Student,2025-11-21,Email,Normal,Student Affairs,7,Yes,4.0,5,Completed,No,3.0,Friday
+SR0300,Enrollment,Student,2025-07-20,Portal,High,Student Affairs,16,Yes,,3,Cancelled,No,,Sunday
+SR0301,Records,Student,2025-03-13,Email,Normal,Registrar,5,No,1.0,5,Completed,No,2.0,Thursday
+SR0302,Certification,Student,2025-02-01,Email,High,Registrar,7,No,9.0,3,Completed,No,3.0,Saturday
+SR0303,Scholarship Inquiry,Faculty,2025-12-31,Email,High,Scholarship Office,12,Yes,7.0,4,Completed,No,3.0,Wednesday
+SR0304,Records,Student,2025-06-19,Portal,Low,Registrar,15,Yes,4.0,7,Completed,No,4.0,Thursday
+SR0305,Scholarship Inquiry,Student,2025-08-15,Portal,Normal,Scholarship Office,8,Yes,,6,Pending,No,,Friday
+SR0306,Records,Faculty,2025-07-20,Walk-in,High,Registrar,4,Yes,6.0,3,Completed,No,4.0,Sunday
+SR0307,Scholarship Inquiry,Student,2025-05-16,Email,Normal,Scholarship Office,6,Yes,3.0,6,Completed,No,5.0,Friday
+SR0308,Certification,Student,2025-10-29,Portal,Normal,Registrar,6,No,5.0,5,Completed,No,4.0,Wednesday
+SR0309,Enrollment,Student,2025-12-17,Email,Normal,Student Affairs,8,Yes,8.0,5,Completed,No,3.0,Wednesday
+SR0310,Certification,Student,2025-01-23,Email,Normal,Registrar,7,Yes,,5,Pending,No,,Thursday
+SR0311,Finance,Student,2025-02-04,Portal,Normal,Finance Office,9,Yes,5.0,5,Completed,No,4.0,Tuesday
+SR0312,Certification,Student,2025-04-08,Portal,Low,Registrar,9,Yes,1.0,7,Completed,No,5.0,Tuesday
+SR0313,Enrollment,Student,2025-04-19,Email,Normal,Student Affairs,9,Yes,8.0,5,Completed,No,5.0,Saturday
+SR0314,Records,Student,2025-05-21,Walk-in,Normal,Registrar,13,Yes,2.0,5,Completed,No,4.0,Wednesday
+SR0315,Enrollment,Student,2025-03-04,Email,Low,Student Affairs,11,No,,7,Pending,No,,Tuesday
+SR0316,Records,Staff,2025-08-17,Portal,Normal,Registrar,7,Yes,5.0,5,Completed,No,4.0,Sunday
+SR0317,Certification,Student,2025-09-19,Portal,Normal,Registrar,4,Yes,,5,Pending,No,,Friday
+SR0318,Scholarship Inquiry,Student,2025-06-07,Portal,Normal,Scholarship Office,7,Yes,,6,Pending,No,,Saturday
+SR0319,IT Support,Student,2025-01-25,Portal,High,IT Services,4,Yes,7.0,4,Completed,No,3.0,Saturday
+SR0320,Records,Student,2025-03-12,Email,High,Registrar,7,No,,3,Cancelled,No,,Wednesday
+SR0321,Records,Student,2025-07-08,Email,Low,Registrar,10,Yes,4.0,7,Completed,No,3.0,Tuesday
+SR0322,Certification,Student,2025-05-20,Portal,Normal,Registrar,8,Yes,3.0,5,Completed,No,5.0,Tuesday
+SR0323,Scholarship Inquiry,Student,2025-09-25,Email,Normal,Scholarship Office,9,Yes,5.0,6,Completed,No,3.0,Thursday
+SR0324,IT Support,Faculty,2025-04-30,Email,Normal,IT Services,13,Yes,5.0,6,Completed,No,5.0,Wednesday
+SR0325,Scholarship Inquiry,Student,2025-01-18,Email,Normal,Scholarship Office,6,Yes,11.0,6,Completed,No,4.0,Saturday
+SR0326,Records,Student,2025-11-03,Email,Normal,Registrar,5,Yes,8.0,5,Completed,No,4.0,Monday
+SR0327,Records,Student,2025-04-11,Portal,Normal,Registrar,8,Yes,2.0,5,Completed,Yes,5.0,Friday
+SR0328,Scholarship Inquiry,Faculty,2025-07-26,Portal,Normal,Scholarship Office,4,No,7.0,6,Completed,No,3.0,Saturday
+SR0329,Records,Student,2025-07-31,Portal,High,Registrar,6,Yes,,3,Pending,No,,Thursday
+SR0330,Enrollment,Student,2025-12-02,Portal,Normal,Student Affairs,3,Yes,6.0,5,Completed,No,4.0,Tuesday
+SR0331,Enrollment,Student,2025-12-30,Portal,Low,Student Affairs,19,Yes,6.0,7,Completed,Yes,4.0,Tuesday
+SR0332,Enrollment,Student,2025-11-03,Email,Low,Student Affairs,15,Yes,,7,Pending,No,,Monday
+SR0333,Certification,Student,2025-04-08,Portal,High,Registrar,12,No,5.0,3,Completed,No,3.0,Tuesday
+SR0334,Finance,Student,2025-07-05,Portal,Normal,Finance Office,11,Yes,5.0,5,Completed,No,3.0,Saturday
+SR0335,Finance,Student,2025-05-13,Portal,Normal,Finance Office,12,Yes,6.0,5,Completed,No,5.0,Tuesday
+SR0336,Enrollment,Faculty,2025-04-19,Portal,Normal,Student Affairs,3,Yes,7.0,5,Completed,No,3.0,Saturday
+SR0337,Scholarship Inquiry,Student,2025-07-12,Portal,Normal,Scholarship Office,11,Yes,5.0,6,Completed,No,4.0,Saturday
+SR0338,Certification,Student,2025-06-08,Portal,High,Registrar,13,Yes,6.0,3,Completed,No,5.0,Sunday
+SR0339,Certification,Student,2025-02-06,Email,Normal,Registrar,15,Yes,6.0,5,Completed,No,5.0,Thursday
+SR0340,Enrollment,Student,2025-09-22,Walk-in,Normal,Student Affairs,9,No,8.0,5,Completed,No,2.0,Monday
+SR0341,IT Support,Staff,2025-07-14,Portal,Normal,IT Services,7,Yes,5.0,6,Completed,No,5.0,Monday
+SR0342,Scholarship Inquiry,Student,2025-11-17,Portal,High,Scholarship Office,6,Yes,6.0,4,Completed,No,3.0,Monday
+SR0343,Records,Student,2025-12-12,Portal,Low,Registrar,14,No,,7,Pending,No,,Friday
+SR0344,Records,Student,2025-08-03,Walk-in,Low,Registrar,15,Yes,5.0,7,Completed,No,5.0,Sunday
+SR0345,Enrollment,Staff,2025-12-12,Walk-in,High,Student Affairs,4,No,2.0,3,Completed,No,5.0,Friday
+SR0346,Certification,Faculty,2025-08-08,Walk-in,Normal,Registrar,4,Yes,5.0,5,Completed,No,5.0,Friday
+SR0347,Enrollment,Student,2025-07-02,Portal,Low,Student Affairs,11,Yes,6.0,7,Completed,No,4.0,Wednesday
+SR0348,Finance,Student,2025-09-19,Portal,Normal,Finance Office,10,Yes,4.0,5,Completed,No,4.0,Friday
+SR0349,Records,Student,2025-03-05,Portal,High,Registrar,14,Yes,6.0,3,Completed,No,5.0,Wednesday
+SR0350,Certification,Student,2025-04-24,Portal,Normal,Registrar,10,Yes,,5,Pending,No,,Thursday
+SR0351,IT Support,Student,2025-11-19,Portal,High,IT Services,9,Yes,3.0,4,Completed,No,3.0,Wednesday
+SR0352,Records,Student,2025-10-26,Walk-in,Normal,Registrar,12,Yes,5.0,5,Completed,No,4.0,Sunday
+SR0353,IT Support,Faculty,2025-08-12,Email,Low,IT Services,9,Yes,6.0,8,Completed,No,4.0,Tuesday
+SR0354,IT Support,Student,2025-12-23,Portal,Normal,IT Services,8,Yes,4.0,6,Completed,No,4.0,Tuesday
+SR0355,Enrollment,Student,2025-01-15,Email,Normal,Student Affairs,12,Yes,6.0,5,Completed,No,3.0,Wednesday
+SR0356,Enrollment,Student,2025-05-08,Portal,Normal,Student Affairs,11,Yes,,5,Cancelled,No,,Thursday
+SR0357,Enrollment,Student,2025-02-07,Portal,Normal,Student Affairs,9,Yes,5.0,5,Completed,No,3.0,Friday
+SR0358,Scholarship Inquiry,Student,2025-02-08,Email,Normal,Scholarship Office,12,Yes,7.0,6,Completed,No,4.0,Saturday
+SR0359,Certification,Student,2025-01-10,Portal,Low,Registrar,9,Yes,4.0,7,Completed,No,4.0,Friday
+SR0360,Scholarship Inquiry,Student,2025-05-03,Email,Normal,Scholarship Office,6,Yes,9.0,6,Completed,No,3.0,Saturday
+SR0361,Finance,Staff,2025-10-18,Portal,Normal,Finance Office,6,No,7.0,5,Completed,No,4.0,Saturday
+SR0362,IT Support,Student,2025-08-11,Portal,Normal,IT Services,19,Yes,,6,Pending,No,,Monday
+SR0363,Finance,Student,2025-04-09,Email,Normal,Finance Office,12,Yes,,5,Pending,No,,Wednesday
+SR0364,Finance,Student,2025-09-12,Email,Normal,Finance Office,9,Yes,6.0,5,Completed,No,4.0,Friday
+SR0365,Certification,Student,2025-10-28,Walk-in,Normal,Registrar,11,Yes,4.0,5,Completed,No,4.0,Tuesday
+SR0366,IT Support,Faculty,2025-01-10,Email,Normal,IT Services,11,Yes,,6,Cancelled,Yes,,Friday
+SR0367,Scholarship Inquiry,Student,2025-07-12,Walk-in,Normal,Scholarship Office,7,Yes,7.0,6,Completed,No,3.0,Saturday
+SR0368,Records,Student,2025-01-10,Portal,Low,Registrar,11,No,9.0,7,Completed,No,3.0,Friday
+SR0369,Certification,Staff,2025-12-27,Portal,Normal,Registrar,7,Yes,3.0,5,Completed,No,3.0,Saturday
+SR0370,Finance,Student,2025-06-06,Email,Normal,Finance Office,12,Yes,6.0,5,Completed,No,3.0,Friday
+SR0371,Certification,Student,2025-07-01,Portal,High,Registrar,5,Yes,5.0,3,Completed,Yes,3.0,Tuesday
+SR0372,Records,Student,2025-10-08,Portal,Normal,Registrar,12,No,11.0,5,Completed,No,4.0,Wednesday
+SR0373,IT Support,Faculty,2025-06-07,Portal,Normal,IT Services,7,Yes,8.0,6,Completed,Yes,2.0,Saturday
+SR0374,Scholarship Inquiry,Student,2025-08-31,Email,Normal,Scholarship Office,16,Yes,7.0,6,Completed,Yes,3.0,Sunday
+SR0375,IT Support,Student,2025-02-20,Email,Normal,IT Services,8,Yes,4.0,6,Completed,No,4.0,Thursday
+SR0376,IT Support,Student,2025-01-03,Portal,Normal,IT Services,8,No,9.0,6,Completed,No,4.0,Friday
+SR0377,Records,Student,2025-12-10,Portal,Normal,Registrar,8,Yes,5.0,5,Completed,Yes,4.0,Wednesday
+SR0378,Certification,Student,2025-08-29,Walk-in,Normal,Registrar,10,Yes,6.0,5,Completed,No,3.0,Friday
+SR0379,Records,Faculty,2025-07-06,Email,Normal,Registrar,10,Yes,4.0,5,Completed,No,4.0,Sunday
+SR0380,Finance,Student,2025-07-07,Walk-in,High,Finance Office,9,Yes,,3,Pending,No,,Monday
+SR0381,Enrollment,Student,2025-03-10,Portal,Low,Student Affairs,15,Yes,5.0,7,Completed,No,4.0,Monday
+SR0382,Certification,Student,2025-05-15,Portal,Normal,Registrar,8,Yes,4.0,5,Completed,No,5.0,Thursday
+SR0383,Certification,Student,2025-01-30,Portal,Normal,Registrar,11,Yes,6.0,5,Completed,No,3.0,Thursday
+SR0384,Records,Student,2025-11-20,Portal,High,Registrar,11,Yes,,3,Pending,No,,Thursday
+SR0385,Finance,Student,2025-01-26,Email,Normal,Finance Office,7,No,6.0,5,Completed,No,3.0,Sunday
+SR0386,Records,Student,2025-10-28,Portal,Normal,Registrar,9,Yes,6.0,5,Completed,No,3.0,Tuesday
+SR0387,Finance,Student,2025-10-23,Portal,Normal,Finance Office,9,Yes,7.0,5,Completed,No,4.0,Thursday
+SR0388,Finance,Student,2025-10-07,Portal,High,Finance Office,6,Yes,,3,Pending,No,,Tuesday
+SR0389,Enrollment,Student,2025-09-27,Portal,Low,Student Affairs,15,Yes,5.0,7,Completed,Yes,4.0,Saturday
+SR0390,Finance,Student,2025-08-27,Portal,Low,Finance Office,14,Yes,7.0,7,Completed,No,4.0,Wednesday
+SR0391,Certification,Student,2025-03-10,Portal,Low,Registrar,12,Yes,5.0,7,Completed,No,2.0,Monday
+SR0392,Finance,Faculty,2025-12-12,Email,Normal,Finance Office,9,Yes,9.0,5,Completed,No,3.0,Friday
+SR0393,Records,Faculty,2025-11-25,Email,Normal,Registrar,4,No,,5,Pending,No,,Tuesday
+SR0394,Certification,Staff,2025-03-04,Portal,Normal,Registrar,6,No,6.0,5,Completed,No,4.0,Tuesday
+SR0395,Finance,Student,2025-04-05,Portal,High,Finance Office,7,No,10.0,3,Completed,No,4.0,Saturday
+SR0396,Certification,Student,2025-11-23,Walk-in,High,Registrar,3,No,,3,Pending,No,,Sunday
+SR0397,Certification,Student,2025-04-28,Walk-in,Normal,Registrar,17,Yes,7.0,5,Completed,No,4.0,Monday
+SR0398,Certification,Student,2025-06-10,Email,Normal,Registrar,8,No,6.0,5,Completed,No,3.0,Tuesday
+SR0399,Scholarship Inquiry,Faculty,2025-09-16,Portal,Low,Scholarship Office,12,Yes,7.0,8,Completed,No,4.0,Tuesday
+SR0400,IT Support,Student,2025-01-01,Portal,Normal,IT Services,13,No,,6,Pending,No,,Wednesday

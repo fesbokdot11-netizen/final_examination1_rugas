@@ -82,7 +82,7 @@ def main(csv_path: Path):
 
     breach_by_office = lab.groupby("Assigned_Office")["SLA_Breached"].mean()
     meta = {
-        "model_version": "1.0.0",
+        "model_version": "1.1.0",
         "trained_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "algorithm": "DecisionTreeClassifier in sklearn Pipeline (OneHotEncoder + passthrough numerics)",
         "sklearn_version": sklearn.__version__,

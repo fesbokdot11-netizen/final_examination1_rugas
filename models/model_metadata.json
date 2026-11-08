@@ -1,6 +1,6 @@
 {
-  "model_version": "1.0.0",
-  "trained_at": "2026-10-31 23:53:14",
+  "model_version": "1.1.0",
+  "trained_at": "2026-11-08 23:22:17",
   "algorithm": "DecisionTreeClassifier in sklearn Pipeline (OneHotEncoder + passthrough numerics)",
   "sklearn_version": "1.9.1",
   "training_data": "student_service_requests.csv",
@@ -24,35 +24,35 @@
   "n_train": 261,
   "n_test": 66,
   "metrics": {
-    "accuracy": 0.6515151515151515,
-    "precision": 0.5909090909090909,
-    "recall": 0.8387096774193549,
-    "f1": 0.6933333333333334,
+    "accuracy": 0.696969696969697,
+    "precision": 0.72,
+    "recall": 0.5806451612903226,
+    "f1": 0.6428571428571429,
     "majority_baseline_accuracy": 0.5303030303030303,
-    "fp_rate": 0.5142857142857142,
+    "fp_rate": 0.2,
     "confusion_matrix": {
-      "TN": 17,
-      "FP": 18,
-      "FN": 5,
-      "TP": 26
+      "TN": 28,
+      "FP": 7,
+      "FN": 13,
+      "TP": 18
     }
   },
   "feature_importances": {
-    "Service_Type": 0.3552800144157839,
-    "Queue_Length": 0.30697430413433346,
-    "Required_Documents_Complete": 0.19328628593323283,
-    "Assigned_Office": 0.07929407937540663,
-    "Submission_Weekday": 0.057479889986396124,
-    "Requester_Type": 0.007685426154847142,
-    "Queue_Category": 0.0,
-    "SLA_Days": 0.0
+    "SLA_Days": 0.42309693009674293,
+    "Required_Documents_Complete": 0.284576880516585,
+    "Service_Type": 0.23075916131335236,
+    "Queue_Length": 0.033340489007828156,
+    "Submission_Weekday": 0.02414648291377991,
+    "Queue_Category": 0.0040800561517117155,
+    "Requester_Type": 0.0,
+    "Assigned_Office": 0.0
   },
   "categories": {
     "Service_Type": [
       "Certification",
-      "Enrollment Assistance",
-      "Finance Clearance",
-      "ID Replacement",
+      "Enrollment",
+      "Finance",
+      "IT Support",
       "Records",
       "Scholarship Inquiry"
     ],
@@ -62,14 +62,15 @@
       "Student"
     ],
     "Assigned_Office": [
-      "Finance",
+      "Finance Office",
+      "IT Services",
       "Registrar",
       "Scholarship Office",
       "Student Affairs"
     ]
   },
   "high_breach_offices": [
-    "Finance",
+    "Finance Office",
     "Scholarship Office"
   ]
 }

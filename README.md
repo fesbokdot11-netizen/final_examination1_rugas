@@ -24,7 +24,7 @@ requirements.txt
 modules/                    data_processing.py, exploratory_analysis.py, prediction.py, dashboard.py
 models/trained_model.joblib + model_metadata.json (saved pipeline and metrics; never retrained on refresh)
 assets/use_case_diagram.png
-data/student_service_requests.csv   SYNTHETIC sample data
+data/student_service_requests.csv   supplied 400-request sample dataset
 scripts/                    make_synthetic_data.py, train_model.py, make_use_case_diagram.py
 docs/deployment_report_template.md
 ```
@@ -36,7 +36,7 @@ streamlit run app.py
 ```
 
 ## Use YOUR midterm model and data (important)
-The bundled model was trained on synthetic data shaped like the midterm dataset. To reuse your real work:
+The bundled model is trained on completed requests from the supplied sample dataset. To use a different authorized dataset:
 1. In your midterm notebook, save the fitted pipeline (preprocessing + model) and make sure it was trained on
    exactly the columns in `modules/prediction.py::FEATURE_COLUMNS` (edit that list if your features differ):
    ```python
@@ -59,8 +59,8 @@ Model inputs are submission-time fields only. `Processing_Days`, `Satisfaction_S
 and `Request_ID` are never passed to the pipeline. Training uses completed requests only (open/cancelled
 requests have no outcome).
 
-The dashboard maps workflow states to Pending, Processing, Completed, or Delayed badges. `Processing` is
-accepted as an optional in-progress status; the bundled sample currently uses Open, Completed, and Cancelled.
+The dashboard maps workflow states to Pending, Processing, Completed, or Delayed badges. Incoming `Pending`
+statuses are normalized to `Open` for workflow processing; `Processing` is also accepted as an in-progress status.
 
 ## Known limitations
 See the Limitations panel on the Prediction page and `docs/deployment_report.md`. Update the report after
