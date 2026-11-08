@@ -198,7 +198,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-PAGES = ["Home", "Dataset", "Data Analysis", "Prediction", "Dashboard", "System Design", "Presentation"]
+PAGES = ["Home", "Dataset", "Data Analysis", "Prediction", "Dashboard", "System Design"]
 PAGE_ICONS = {
     "Home": "⌂",
     "Dataset": "▤",
@@ -206,7 +206,6 @@ PAGE_ICONS = {
     "Prediction": "◎",
     "Dashboard": "▦",
     "System Design": "◇",
-    "Presentation": "▶",
 }
 
 
@@ -478,95 +477,6 @@ def page_prediction():
                                "scored_requests.csv", "text/csv")
 
 
-def page_presentation():
-    st.header("Presentation Guide")
-    st.caption("A ready-to-present walkthrough of the system, with cues for what to show on screen.")
-    st.info("Suggested duration: 5–7 minutes. Use the sidebar to move to each page when you reach its demo cue.")
-
-    meta = None
-    try:
-        meta = load_meta()
-    except Exception:
-        st.warning("Model metadata is unavailable. Skip the model version and accuracy details below.")
-
-    accuracy = f"{meta['metrics']['accuracy']:.1%}" if meta else "unavailable"
-    model_version = meta["model_version"] if meta else "unavailable"
-    sections = [
-        (
-            "1. Opening · 30 seconds",
-            "Show: Home",
-            "Good morning. Today, I’m presenting the Student Service Request Monitoring System, "
-            "a decision-support application for monitoring student service requests and identifying "
-            "possible SLA breaches. An SLA, or service-level agreement, is the target time for completing "
-            "a request. The system estimates whether a request may exceed that target. It is designed to "
-            "help staff identify requests that may need attention—not to make decisions on their behalf. "
-            "The application currently uses the 400 request records supplied for this project.",
-        ),
-        (
-            "2. Home · 45 seconds",
-            "Show: Home page metrics and overview",
-            f"The Home page gives a quick overview of the system. It currently shows {len(active_df):,} "
-            f"loaded requests, model version {model_version}, and a deployed test accuracy of {accuracy}. "
-            "That accuracy describes performance on the model’s test data; it does not guarantee that an "
-            "individual prediction will be correct. The page also summarizes the system’s focus: making "
-            "backlogs visible, highlighting possible risks, and keeping final decisions with staff.",
-        ),
-        (
-            "3. Dataset · 45 seconds",
-            "Show: Dataset",
-            "On the Dataset page, staff can review the bundled sample or upload a CSV file. The system "
-            "checks for required columns and shows a preview and data-quality summary, including missing "
-            "values and duplicate records. This helps identify input-data problems before analysis or prediction.",
-        ),
-        (
-            "4. Data Analysis · 45 seconds",
-            "Show: Data Analysis",
-            "The Data Analysis page explores request volume and patterns, including differences by service "
-            "type or office and how breach rates vary. These charts can help staff notice potential "
-            "bottlenecks. They describe the available data; they do not prove why a delay occurred.",
-        ),
-        (
-            "5. Prediction · 1 minute",
-            "Show: Prediction, then the individual prediction form",
-            "The Prediction page supports individual and batch scoring. For an individual request, a user "
-            "enters submission-time information and reviews the model’s estimate and related details. "
-            "The system avoids using outcome fields such as actual processing time or final status for "
-            "submission-time inference. A prediction is a signal for staff review—not a decision or a promise.",
-        ),
-        (
-            "6. Dashboard · 1 minute",
-            "Show: Dashboard",
-            "The Dashboard brings the operational view together. It presents summary indicators and a "
-            "request register or risk queue to help staff review requests and workflow status. Where "
-            "available, authorized staff can record a final decision. The model may highlight a possible "
-            "risk, but staff remain responsible for deciding what action to take.",
-        ),
-        (
-            "7. System Design · 45 seconds",
-            "Show: System Design",
-            "The System Design page presents the system’s requirements, actors, use-case diagram, and "
-            "workflow. It connects the application’s features to the needs of student services staff "
-            "and administrators.",
-        ),
-        (
-            "8. Closing · 30 seconds",
-            "Return to: Home",
-            "To summarize, this system combines data validation, analysis, SLA-risk prediction, and a "
-            "staff-facing dashboard. Its purpose is to help staff see patterns and prioritize requests "
-            "for review. Predictions have limitations, and the supplied sample may not represent live operations. "
-            "Validate the system with properly authorized operational data before deployment. "
-            "Thank you. I’m ready for your questions.",
-        ),
-    ]
-
-    for title, cue, script in sections:
-        with st.expander(title, expanded=title.startswith("1.")):
-            st.markdown(f"**{cue}**")
-            st.write(script)
-
-    st.caption("Reminder: describe model predictions as decision-support estimates, not guaranteed outcomes.")
-
-
 # ----------------------------------------------------------------- router
 if menu == "Home":
     page_home()
@@ -585,5 +495,3 @@ elif menu == "System Design":
     except Exception:
         _meta = {}
     dash.render_system_design(_meta)
-elif menu == "Presentation":
-    page_presentation()

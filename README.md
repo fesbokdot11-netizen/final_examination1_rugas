@@ -15,7 +15,6 @@ service request will breach its service-level agreement (SLA), inside a human-in
 | Prediction | One-row inference, probability, drivers, limitations, metrics vs midterm, batch scoring |
 | Dashboard | Responsive KPI cards, searchable/sortable risk queue and request register, workflow-status badges, interpretation, role-based final decision log |
 | System Design | 5 functional + 3 non-functional requirements, actors, use case diagram, workflow |
-| Presentation | Timed presenter script with page-by-page demo cues |
 
 ## Repository layout
 ```
