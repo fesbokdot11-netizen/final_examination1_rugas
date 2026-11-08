@@ -245,7 +245,7 @@ menu = st.sidebar.radio(
     label_visibility="collapsed",
 )
 role = st.sidebar.selectbox("Acting role (demo)", dash.ROLES,
-                            help="Service Officers can record final decisions; Administrators are read-only.")
+                            help="Service Officers can upload datasets and record final decisions. Administrators can view data and results only.")
 active_df, active_name = get_active_df()
 st.sidebar.caption(f"Active data: **{active_name}** ({len(active_df):,} rows)")
 
@@ -339,10 +339,16 @@ def show_quality(raw: pd.DataFrame):
 def page_dataset():
     st.header("Dataset Upload and Validation")
     st.markdown("Required columns: `" + "`, `".join(dp.REQUIRED_COLUMNS) + "`.")
-    uploaded = st.file_uploader("Upload CSV", type="csv")
     st.download_button("Download bundled sample CSV", dp.SAMPLE_PATH.read_bytes(),
                        "student_service_requests_sample.csv", "text/csv")
 
+    if role == "Administrator":
+        st.info("Read-only administrator view: dataset uploads and changing the active dataset are limited to Service Officers.")
+        show_quality(active_df)
+        st.dataframe(active_df.head(20), use_container_width=True)
+        return
+
+    uploaded = st.file_uploader("Upload CSV", type="csv")
     if uploaded is None:
         st.info("No file uploaded. Showing the bundled request sample.")
         raw = pd.read_csv(dp.SAMPLE_PATH)

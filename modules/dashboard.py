@@ -259,13 +259,14 @@ def render_system_design(meta: dict):
 
     st.subheader("Actors and permissions")
     perms = pd.DataFrame([
-        ["Administrator", "Yes", "Yes", "Yes (read-only)", "No"],
+        ["Administrator", "No (read-only)", "Yes", "Yes (read-only)", "No"],
         ["Service Officer", "Yes", "Yes", "Yes", "Yes"],
-    ], columns=["Actor", "Upload / validate data", "View predictions & dashboard", "View decision log",
+    ], columns=["Actor", "Upload / change active data", "View predictions & dashboard", "View decision log",
                 "Record final decision"])
     st.dataframe(perms, use_container_width=True, hide_index=True)
     st.caption("Request submission by students happens in the upstream service-request system and is outside "
-               "this application's boundary. Role switching in the sidebar is a demo of authorization rules; "
+               "this application's boundary. Administrators can inspect the active dataset but cannot upload "
+               "or change it. Role switching in the sidebar is a demo of authorization rules; "
                "production use needs real authentication.")
 
     st.subheader("Updated use case diagram")

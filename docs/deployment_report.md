@@ -26,7 +26,7 @@
 | `Processing` is accepted as a workflow status | Validation returns no errors | Passed |
 | Invalid upload, missing columns, and empty CSV | Clear validation errors | Not yet verified end-to-end |
 | Same cases compared with the submitted midterm notebook | Matching predictions | Not yet verified; original notebook cases were unavailable |
-| Administrator decision recording is blocked | Read-only role behavior | Not yet verified end-to-end |
+| Administrator cannot upload/change active data or record decisions | Read-only role behavior | Verified in role-gated UI; selector is a demo, not authentication |
 | Public Streamlit deployment | URL opens successfully | Deployed; confirm after the latest rebuild |
 
 ## 4. Limitations

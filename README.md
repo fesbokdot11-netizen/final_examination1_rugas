@@ -16,6 +16,10 @@ service request will breach its service-level agreement (SLA), inside a human-in
 | Dashboard | Responsive KPI cards, searchable/sortable risk queue and request register, workflow-status badges, interpretation, role-based final decision log |
 | System Design | 5 functional + 3 non-functional requirements, actors, use case diagram, workflow |
 
+The demo **Service Officer** role can upload and apply datasets and record final decisions. The **Administrator**
+role is read-only for dataset changes and final decisions, but can view the active data and analysis. Role selection
+demonstrates permissions; it is not production authentication.
+
 ## Repository layout
 ```
 app.py                      Streamlit entry point
