@@ -91,6 +91,92 @@ st.markdown(
         color: var(--navy);
         margin: 0.5rem 0 1rem;
     }
+    .home-hero {
+        background: linear-gradient(135deg, #142b4a 0%, #2f67a5 100%);
+        border-radius: 18px;
+        padding: 1.5rem 1.6rem;
+        margin-bottom: 1.5rem;
+        color: #ffffff;
+        box-shadow: 0 12px 24px rgba(20, 43, 74, 0.12);
+    }
+    .home-hero h1 {
+        color: #ffffff !important;
+        margin: 0 0 0.45rem;
+        font-size: 2.4rem;
+    }
+    .home-hero p {
+        color: rgba(255,255,255,0.9) !important;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .home-badge {
+        display: inline-block;
+        background: rgba(255,255,255,0.12);
+        border: 1px solid rgba(255,255,255,0.18);
+        border-radius: 999px;
+        padding: 0.35rem 0.7rem;
+        font-size: 0.74rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 0.75rem;
+        font-weight: 700;
+    }
+    .home-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 1rem 1.1rem;
+        box-shadow: 0 6px 18px rgba(20, 43, 74, 0.06);
+        height: 100%;
+    }
+    .home-card h4 {
+        color: var(--navy);
+        margin: 0 0 0.45rem;
+        font-size: 1rem;
+    }
+    .home-card p {
+        color: var(--muted);
+        margin: 0;
+        line-height: 1.55;
+    }
+    .home-step {
+        background: #f7fafe;
+        border: 1px solid #dfeaf9;
+        border-radius: 12px;
+        padding: 0.9rem 1rem;
+        height: 100%;
+    }
+    .home-step .num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        background: #dcecff;
+        color: var(--navy);
+        font-weight: 800;
+        margin-bottom: 0.7rem;
+    }
+    .home-step h5 {
+        margin: 0 0 0.3rem;
+        color: var(--navy);
+    }
+    .home-step p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.93rem;
+    }
+    .decision-note {
+        background: #fff9ea;
+        border: 1px solid #f4de9d;
+        border-left: 4px solid #d99d22;
+        border-radius: 10px;
+        padding: 0.9rem 1rem;
+        color: #5b4305;
+        margin-top: 1rem;
+        font-weight: 600;
+    }
     [data-testid="stDataFrame"], [data-testid="stTable"] { border: 1px solid var(--line); border-radius: 10px; }
     .stButton > button, [data-testid="stDownloadButton"] button {
         border-radius: 8px;
@@ -112,7 +198,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-PAGES = ["Home", "Dataset", "Data Analysis", "Prediction", "Dashboard", "System Design"]
+PAGES = ["Home", "Dataset", "Data Analysis", "Prediction", "Dashboard", "System Design", "Presentation"]
 PAGE_ICONS = {
     "Home": "⌂",
     "Dataset": "▤",
@@ -120,6 +206,7 @@ PAGE_ICONS = {
     "Prediction": "◎",
     "Dashboard": "▦",
     "System Design": "◇",
+    "Presentation": "▶",
 }
 
 
@@ -166,32 +253,71 @@ st.sidebar.caption(f"Active data: **{active_name}** ({len(active_df):,} rows)")
 
 # ----------------------------------------------------------------- pages
 def page_home():
-    st.title("Student Service Request Monitoring")
-    st.subheader("Predicting SLA breaches to support - not replace - staff decisions")
     st.markdown(
-        "This app deploys the **Decision Tree pipeline from the midterm laboratory examination**. It predicts, "
-        "at submission time, whether a student service request is likely to exceed its service-level agreement "
-        "(SLA), and routes high-risk requests to **student services staff for review**."
+        """
+        <div class="home-hero">
+            <div class="home-badge">Student Services</div>
+            <h1>Student Service Request Monitoring</h1>
+            <p>Track backlog risk, flag SLA breaches early, and support staff decisions with a transparent, human-in-the-loop workflow.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
+
     meta = None
     try:
         meta = load_meta()
     except Exception:
         st.warning("Model metadata not found. Run scripts/train_model.py.")
+
     c1, c2, c3 = st.columns(3)
     c1.metric("Requests loaded", f"{len(active_df):,}")
     c2.metric("Model version", meta["model_version"] if meta else "n/a")
     c3.metric("Test accuracy (deployed)", f"{meta['metrics']['accuracy']:.1%}" if meta else "n/a")
-    st.markdown("#### How to use")
+
+    st.markdown("### What this dashboard helps with")
+    cols = st.columns(3)
+    cards = [
+        ("Backlog visibility", "Identify which request queues and offices are accumulating delays before SLA targets are missed."),
+        ("Risk detection", "Use the deployed decision-tree model to highlight service requests with a higher probability of SLA breach."),
+        ("Human review", "Keep final decisions with staff so the system supports action rather than replacing judgment."),
+    ]
+    for col, (title, body) in zip(cols, cards):
+        with col:
+            st.markdown(f"""
+            <div class="home-card">
+                <h4>{title}</h4>
+                <p>{body}</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+    st.markdown("### How to use the system")
+    steps = st.columns(5)
+    step_items = [
+        ("Dataset", "Upload a CSV or use the bundled sample to validate the request data."),
+        ("Analysis", "Review volume, service bottlenecks, and breach patterns across offices."),
+        ("Prediction", "Score a request and inspect the model’s risk estimate and drivers."),
+        ("Dashboard", "Monitor KPIs, queue risk, and final decision status in one view."),
+        ("Workflow", "Use the system design information to align the tool with operational policy."),
+    ]
+    for col, (title, body) in zip(steps, step_items):
+        with col:
+            st.markdown(f"""
+            <div class="home-step">
+                <div class="num">{step_items.index((title, body)) + 1}</div>
+                <h5>{title}</h5>
+                <p>{body}</p>
+            </div>
+            """, unsafe_allow_html=True)
+
     st.markdown(
-        "1. **Dataset** - upload and validate a CSV (or use the bundled synthetic sample).\n"
-        "2. **Data Analysis** - explore volume, breach rates and bottlenecks.\n"
-        "3. **Prediction** - score one request and review model metrics.\n"
-        "4. **Dashboard** - see KPIs, the risk queue, and record the final human decision.\n"
-        "5. **System Design** - requirements, actors, use case diagram and workflow."
+        """
+        <div class="decision-note">
+            Predictions are decision-support outputs. They do not authorize rejecting or denying a service request, and the demo data is synthetic.
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
-    st.info("Predictions are decision-support outputs. They never authorize rejecting or denying a service request. "
-            "The demo data is synthetic.")
 
 
 def show_quality(raw: pd.DataFrame):
@@ -352,6 +478,95 @@ def page_prediction():
                                "scored_requests.csv", "text/csv")
 
 
+def page_presentation():
+    st.header("Presentation Guide")
+    st.caption("A ready-to-present walkthrough of the system, with cues for what to show on screen.")
+    st.info("Suggested duration: 5–7 minutes. Use the sidebar to move to each page when you reach its demo cue.")
+
+    meta = None
+    try:
+        meta = load_meta()
+    except Exception:
+        st.warning("Model metadata is unavailable. Skip the model version and accuracy details below.")
+
+    accuracy = f"{meta['metrics']['accuracy']:.1%}" if meta else "unavailable"
+    model_version = meta["model_version"] if meta else "unavailable"
+    sections = [
+        (
+            "1. Opening · 30 seconds",
+            "Show: Home",
+            "Good morning. Today, I’m presenting the Student Service Request Monitoring System, "
+            "a decision-support application for monitoring student service requests and identifying "
+            "possible SLA breaches. An SLA, or service-level agreement, is the target time for completing "
+            "a request. The system estimates whether a request may exceed that target. It is designed to "
+            "help staff identify requests that may need attention—not to make decisions on their behalf. "
+            "The application currently uses synthetic sample data, not real student records.",
+        ),
+        (
+            "2. Home · 45 seconds",
+            "Show: Home page metrics and overview",
+            f"The Home page gives a quick overview of the system. It currently shows {len(active_df):,} "
+            f"loaded requests, model version {model_version}, and a deployed test accuracy of {accuracy}. "
+            "That accuracy describes performance on the model’s test data; it does not guarantee that an "
+            "individual prediction will be correct. The page also summarizes the system’s focus: making "
+            "backlogs visible, highlighting possible risks, and keeping final decisions with staff.",
+        ),
+        (
+            "3. Dataset · 45 seconds",
+            "Show: Dataset",
+            "On the Dataset page, staff can review the bundled sample or upload a CSV file. The system "
+            "checks for required columns and shows a preview and data-quality summary, including missing "
+            "values and duplicate records. This helps identify input-data problems before analysis or prediction.",
+        ),
+        (
+            "4. Data Analysis · 45 seconds",
+            "Show: Data Analysis",
+            "The Data Analysis page explores request volume and patterns, including differences by service "
+            "type or office and how breach rates vary. These charts can help staff notice potential "
+            "bottlenecks. They describe the available data; they do not prove why a delay occurred.",
+        ),
+        (
+            "5. Prediction · 1 minute",
+            "Show: Prediction, then the individual prediction form",
+            "The Prediction page supports individual and batch scoring. For an individual request, a user "
+            "enters submission-time information and reviews the model’s estimate and related details. "
+            "The system avoids using outcome fields such as actual processing time or final status for "
+            "submission-time inference. A prediction is a signal for staff review—not a decision or a promise.",
+        ),
+        (
+            "6. Dashboard · 1 minute",
+            "Show: Dashboard",
+            "The Dashboard brings the operational view together. It presents summary indicators and a "
+            "request register or risk queue to help staff review requests and workflow status. Where "
+            "available, authorized staff can record a final decision. The model may highlight a possible "
+            "risk, but staff remain responsible for deciding what action to take.",
+        ),
+        (
+            "7. System Design · 45 seconds",
+            "Show: System Design",
+            "The System Design page presents the system’s requirements, actors, use-case diagram, and "
+            "workflow. It connects the application’s features to the needs of student services staff "
+            "and administrators.",
+        ),
+        (
+            "8. Closing · 30 seconds",
+            "Return to: Home",
+            "To summarize, this system combines data validation, analysis, SLA-risk prediction, and a "
+            "staff-facing dashboard. Its purpose is to help staff see patterns and prioritize requests "
+            "for review. Predictions have limitations, and the current data is synthetic, so the system "
+            "should be evaluated with properly authorized real-world data before operational deployment. "
+            "Thank you. I’m ready for your questions.",
+        ),
+    ]
+
+    for title, cue, script in sections:
+        with st.expander(title, expanded=title.startswith("1.")):
+            st.markdown(f"**{cue}**")
+            st.write(script)
+
+    st.caption("Reminder: describe model predictions as decision-support estimates, not guaranteed outcomes.")
+
+
 # ----------------------------------------------------------------- router
 if menu == "Home":
     page_home()
@@ -370,3 +585,5 @@ elif menu == "System Design":
     except Exception:
         _meta = {}
     dash.render_system_design(_meta)
+elif menu == "Presentation":
+    page_presentation()
